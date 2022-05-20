@@ -1,0 +1,57 @@
+{{page-title "Help Ukraine"}}
+
+<div class="intel-outer">
+    <div>
+        <div class="list-page-header">
+            <h1>Help Ukraine</h1>
+            <div>
+                <img src="assets/images/help24.png" style="max-width: 600px;margin-top:20px"/>
+            </div>
+            <p>
+                <a href="">United24</a> is the official site of the Ukrainian government collecting money for the war effort. 
+                Consider donating.
+            </p>
+
+            <p>
+                Why donate anywhere else? Smaller organization closer to the ground might be better at
+                getting money where it needs to go without working its way through a large bureaucracy. 
+            </p>
+
+            <p>
+                Also, consider other forms of help. We have experience tutoring online with ENGin which is cited below, and 
+                can vouch its been a valuable experience for all involved. Please consider and if you've had good (or bad)
+                experiences with other organizations, please <a href="mailto:uavictorycountdown@gmail.com">let us know</a>.
+            </p>
+
+        </div>
+        {{#each this.model as |cat| }}
+            <div class="intel-section">
+                <div class='intel-section-title'>
+                    <div class="intel-icon-div">
+                          <span style="font-size: 0.9em; color: {{cat.iconcolor}};">
+                            <FaIcon  class='intel-icon' @icon="{{cat.icon}}" />
+                        </span>
+                    </div>
+                    <span class="intel">{{cat.name}}</span>
+                    </div>
+                </div>
+            {{#each cat.subs as | sub | }}
+                {{#if sub.name}}
+                    <div class="subsection-title">
+                        {{sub.name}}
+                    </div>
+                {{/if}}
+                {{#each sub.links as |link| }}
+                    <div class="intel-li">
+                        <div class="intel-li-link">
+                            <a href={{link.u}}>{{link.n}}</a>
+                        </div>
+                        <div class="intel-li-desc">
+                            {{{link.t}}}
+                        </div>
+                    </div>
+                {{/each}}
+            {{/each}}
+        {{/each}}
+    </div>
+</div>

@@ -1,0 +1,22 @@
+{{page-title "Heroes"}}
+<h1>Ukrainian Heroes</h1>
+
+<p>
+    It's hard to single out heroes in a country of heroes.  But its indicative that, unlike
+    Putin's army of conscripts and sons of poor regions who have little economic
+    choice, Ukraine's best and brightest, who could easily fight a way out of the fight, have flocked  
+    to the war effort. We highlight a few here.  
+    
+    The total commitment of all levels of Ukrainian society, both men and an 
+    <a href='https://www.rd.com/article/ukrainian-female-soldiers/'>
+    unprecedented number of women
+    </a>
+    , should give a dictator of conscripts pause. Hopefully Putin realizes soon that, 
+    if given half weapons they need, the Ukrainian people crush the Russian invasion.
+</p>
+
+<table>
+    {{#each this.model as |hero| }}
+        <Hero @hero={{hero}} />
+    {{/each}}
+</table>

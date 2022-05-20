@@ -1,0 +1,44 @@
+<Countdown />
+<div class="under-countdown">
+</div>
+
+<div class="todays-news">
+
+    <h3>Latest News</h3>
+
+    <div class="news-items">
+        {{#each this.latestNews as |link| }}
+            <div class="news-item">
+                - <a href={{link.url}} target="_blank" rel="noopener noreferrer">{{link.t}}</a>
+            </div>
+        {{/each}}
+    </div>
+
+    <h3 class="special-item">Powerful Victory Day Address from President Zelensky</h3>
+    <iframe width="432px" height="243px" src="https://www.youtube.com/embed/Ky796BUuB0s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+</div>
+
+<h3 class="countdown-text">Invasion Timeline</h3>
+<div class="main-timeline">
+
+    {{#each this.model as |event|}}
+        <TimelineEvent @event={{event}} />
+    {{/each}}
+
+    <div class="victory-event">
+        <div class="victory-date">
+            <span class="event-date-day">Day 182</span>
+            <span class="victory-date-text">Independence Day 2022</span>
+            <span class="event-date-date">2022-08-24</span>
+        </div>
+
+        <div class="event-text">
+                The orcs will be scurrying back to the Misty Mountains and the era of a
+                free Ukraine will be dawning
+        </div>
+        <div class="event-image">
+            <Image @src='independence_momument_XoczqK_Dq.png' />
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+<tr>
+    <td>
+        <img class="hero-img" src='{{this.imageCiv}}'/>
+    </td>
+    <td class="hero-desc">
+        <h2>{{@hero.n}}</h2>
+        {{@hero.d}}
+        {{#if this.hasLink}}
+        <p>
+            <a href={{this.link.url}} target="_blank" rel="noopener noreferrer">{{this.link.t}}</a>
+        </p>
+        {{/if}}
+    </td>
+    <td>
+        <img class="hero-img" src='{{this.imageMil}}'/>
+    </td>
+</tr>

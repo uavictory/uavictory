@@ -1,0 +1,14 @@
+{{page-title "Visitors"}}
+
+<h3 class="visitors">Visitors to Ukraine</h3>
+
+<p class="visitors">They are coming, they are seeing, Ukraine will conquer</p>
+
+{{!-- <p class="minor-breaking-news">
+</p> --}}
+    
+<div class="visitor-cards">
+    {{#each this.model.visitors as |visitor| }}
+        <Visitor @visitor={{visitor}}/>
+    {{/each}}
+</div>

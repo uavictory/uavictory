@@ -1,0 +1,40 @@
+{{page-title "Intel"}}
+<div class="intel-outer">
+    <div>
+        <h1>Intel</h1>
+        <div>some good sources of info</div>
+
+        {{#each this.model as |cat| }}
+
+            <div class="intel-section">
+                <div class='intel-section-title'>
+                    <div class="intel-icon-div">
+                    <span style="font-size: 0.8em; color: {{cat.iconcolor}};">
+                        <FaIcon  class='intel-icon fa-xs' @icon="{{cat.icon}}" />
+                    </span>
+                    </div>
+                    <span class="intel">{{cat.title}}</span>
+                </div>
+                <div class='intel-section-desc'>
+                    {{cat.t}}
+                </div>
+            </div>
+
+            {{#each cat.links as |link| }}
+                <div class="intel-li">
+                    <div class="intel-li-link">
+                        <a href={{link.u}} target="_blank" rel="noopener noreferrer" >{{link.n}}</a> -
+                    </div>
+                    <div class="intel-li-desc">
+                        {{link.t}}
+                        {{#if link.tw}}
+                            <a href={{link.tw}} target="_blank" rel="noopener noreferrer">
+                                <img alt='tw' style="width:30px" src="assets/images/twitter.png" />
+                            </a>
+                        {{/if}}
+                    </div>
+                </div>
+            {{/each}}
+        {{/each}}
+    </div>
+</div>

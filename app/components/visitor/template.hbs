@@ -1,0 +1,14 @@
+<div class="visitor-card">
+    {{!-- <div class="visitor-iframe">
+        <iframe width="432px" height="243px" src="{{this.src}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    </div> --}}
+    <img src={{this.imgSrc}}>
+</div>
+
+<div class="visitor-card">
+    <div class="visitor-details">
+        <div class="visitor-name">{{@visitor.p}}</div>
+        <div class="visitor-date">{{@visitor.d}}</div>
+        <div class="visitor-text">{{{@visitor.t}}}</div>
+    </div>
+</div>
