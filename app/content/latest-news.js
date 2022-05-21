@@ -2,8 +2,16 @@
  */
 const items = [
   {
-    t: `Senate approves $40B Aid Package to Ukraine. Awaits Biden's signature`,
-    url: 'https://www.cnn.com/2022/05/19/politics/senate-vote-ukraine-aid-package/index.html',
+    t: `Biden signs $40 billion Ukraine aid package into law`,
+    url: 'https://thehill.com/news/administration/3495301-biden-signs-40b-ukraine-aid-package-into-law/',
+  },
+  {
+    t: 'May 21 Russian loss estimates: +150 troops, +15 tanks, +26 APV, +2 drones...',
+    url: 'https://twitter.com/KyivIndependent/status/1527926088340582400',
+  },
+  {
+    t: `May 20 ISW Report: Russians entrenching remaining Kharkiv positions, pressing around Seveodonetsk`,
+    url: 'https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-may-20',
   },
   {
     t: `UNSTOPPABLE: Kharkiv cat Stepan follows up Ukraine Eurovision triumph with Influencer Award win`,
@@ -20,14 +28,6 @@ const items = [
   {
     t: 'International Red Cross Recording Names of Soldiers Surrendering at Azovstal', 
     url: `https://www.pravda.com.ua/eng/news/2022/05/19/7347193/`,
-  },
-  {
-    t: 'May 20 Russian loss estimates: +200 troops, +9 tanks, +27 APV, +5 drones...',
-    url: 'https://twitter.com/KyivIndependent/status/1527538021758795776',
-  },
-  {
-    t: `May 19 ISW Report: Russians slipping north of Kharkiv, transferring troops to East, partisan activity in Melitopol`,
-    url: 'https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-may-19',
   },
   {
     t: `Who won eurovision 2022? hint: they also won the battles of kyiv and kharkiv`,
