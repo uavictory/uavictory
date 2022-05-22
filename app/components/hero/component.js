@@ -1,6 +1,7 @@
 import Component from '@glimmer/component';
+import consts from '../../consts';
 
-const imageBaseUrl = 'https://ik.imagekit.io/ubx4wnixel/uavictory/people';
+const imageBaseUrl = `${consts.imageBaseUrl}/people`;
 
 export default class HeroComponent extends Component {
   hero = this.args.hero;

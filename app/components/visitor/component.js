@@ -1,8 +1,9 @@
 import Component from '@glimmer/component';
+import consts from '../../consts';
 
-const imageBaseUrl = 'https://ik.imagekit.io/ubx4wnixel/uavictory';
-const VIS_DIR = 'visitors';
+const VIS_DIR = `${consts.imageBaseUrl}/visitors`;
+
 export default class VisitorComponent extends Component {
   visitor = this.args.visitor;
-  imgSrc = `${imageBaseUrl}/${VIS_DIR}/${this.visitor.i}`;
+  imgSrc = `${VIS_DIR}/${this.visitor.i}`;
 }
