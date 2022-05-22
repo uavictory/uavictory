@@ -1,6 +1,6 @@
 /*
  */
-const items = [
+const latestNews = [
   {
     t: `Polish President Duda returns to Kyiv`,
     url: 'https://www.rferl.org/a/ukraine-poland-duda-visit/31862055.html',
@@ -47,7 +47,18 @@ const items = [
   },
 ];
 
-export default items;
+const pastNews = [
+  {
+    date: '2022-05-22',
+    items: [
+      {
+        t: ``,
+        url: ``,
+      }
+    ],
+  },
+]
+export {latestNews, pastNews};
 
 /* past
   {
