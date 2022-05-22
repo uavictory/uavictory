@@ -11,6 +11,22 @@
 
  */
 const visitors = [
+ { 
+      p: 'Andrzej Duda Redux',
+      i: 'duda2_0_ooD4rru.webp',
+      d: '2022-05-27',
+      u: `https://www.rferl.org/a/ukraine-poland-duda-visit/31862055.html`,
+      t: `
+        <p>  
+          Polish President Andrzej Duda is in Kyiv again. This time he addressed the Ukrainian parlaiment
+          urging them not to give in to Putin, and affirming Poland's full support for Ukraine's EU membership.
+        </p>
+        <p>
+          “Only Ukraine has the right to decide about its future,” he told lawmakers. “Nothing about you without you."
+        </p>     
+        
+        `,
+  },
   {
     p: 'Mark Daly, Sean Ó Fearghail',
     i: 'daly_vgUZx9_Tn.png',
