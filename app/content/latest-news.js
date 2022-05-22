@@ -2,16 +2,28 @@
  */
 const items = [
   {
+    t: `Polish President Duda returns to Kyiv`,
+    url: 'https://www.rferl.org/a/ukraine-poland-duda-visit/31862055.html',
+  },
+  {
+    t: `Russians try to cross Siverskyi Donets river again! Reports they lost whole BTG - again! `,
+    url: 'https://twitter.com/EuromaidanPress/status/1528330661752348677',
+  },
+  {
+    t: `Russian concert-goers in St. Petersburg: Fuck War`,
+    url: 'https://twitter.com/openculture/status/1528160888485576704',
+  },
+  {
     t: `Biden signs $40 billion Ukraine aid package into law`,
     url: 'https://thehill.com/news/administration/3495301-biden-signs-40b-ukraine-aid-package-into-law/',
   },
   {
-    t: 'May 21 Russian loss estimates: +150 troops, +15 tanks, +26 APV, +2 drones...',
-    url: 'https://twitter.com/KyivIndependent/status/1527926088340582400',
+    t: 'May 22 Russian loss estimates: +200 troops, +7 tanks, +25 APV, +8 drones...',
+    url: 'https://twitter.com/KyivIndependent/status/1528301735529353216',
   },
   {
-    t: `May 20 ISW Report: Russians entrenching remaining Kharkiv positions, pressing around Seveodonetsk`,
-    url: 'https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-may-20',
+    t: `May 21 ISW Report: Russians continue to try to surround Seveodonetsk. Stalled elsewhere`,
+    url: 'https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-may-21',
   },
   {
     t: `UNSTOPPABLE: Kharkiv cat Stepan follows up Ukraine Eurovision triumph with Influencer Award win`,
