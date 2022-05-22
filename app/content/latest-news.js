@@ -22,18 +22,6 @@ const items = [
     url: 'https://twitter.com/KyivIndependent/status/1526988884026040320',
   },
   {
-    t: `Nato: Erdogan says will block Finland/Sweden, US expects resolution`,
-    url: 'https://www.reuters.com/world/europe/more-ukraine-fighters-surrendering-mariupol-russia-says-2022-05-18/',
-  },
-  {
-    t: 'International Red Cross Recording Names of Soldiers Surrendering at Azovstal', 
-    url: `https://www.pravda.com.ua/eng/news/2022/05/19/7347193/`,
-  },
-  {
-    t: `Who won eurovision 2022? hint: they also won the battles of kyiv and kharkiv`,
-    url: 'https://www.bbc.com/news/entertainment-arts-61452678',
-  },
-  {
     t: `UA General Budanov predicts victory by year end as US GOP delegation visits Kyiv`,
     url: 'https://www.cnbc.com/2022/05/14/russia-ukraine-live-updates.html',
   },
@@ -50,6 +38,22 @@ const items = [
 export default items;
 
 /* past
+  {
+    t: `Who won eurovision 2022? hint: they also won the battles of kyiv and kharkiv`,
+    url: 'https://www.bbc.com/news/entertainment-arts-61452678',
+  },
+  {
+    t: `Who won eurovision 2022? hint: they also won the battles of kyiv and kharkiv`,
+    url: 'https://www.bbc.com/news/entertainment-arts-61452678',
+  },
+  {
+    t: `Nato: Erdogan says will block Finland/Sweden, US expects resolution`,
+    url: 'https://www.reuters.com/world/europe/more-ukraine-fighters-surrendering-mariupol-russia-says-2022-05-18/',
+  },
+  {
+    t: 'International Red Cross Recording Names of Soldiers Surrendering at Azovstal', 
+    url: `https://www.pravda.com.ua/eng/news/2022/05/19/7347193/`,
+  },
   {
     t: 'Sweden Signs NATO Request, Finland Formally Endorses Move',
     url: 'https://www.nbcchicago.com/news/national-international/sweden-signs-nato-request-finns-formalize-intent-turkey-complicates-path/2834448/',
