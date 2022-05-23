@@ -12,9 +12,24 @@
  */
 const visitors = [
  { 
+      p: 'Olaf Scholz!!!!!  (???)',
+      i: 'scholz_senegal_qsyQcYc9L.jpeg',
+      d: '2022-05-23',
+      u: `https://www.rferl.org/a/ukraine-poland-duda-visit/31862055.html`,
+      t: `
+        <p>  
+          Sorry, no time to visit Ukraine.  Busy in Senegal.
+        </p>
+        <br/>
+        <div class='centered' >
+          <img style='width:100px;height: 100px;' src='https://ik.imagekit.io/ubx4wnixel/uavictory/cry-laugh-smile_oDEB7xzk-7.png' />
+        </div>     
+        `,
+  },
+ { 
       p: 'Andrzej Duda Redux',
       i: 'duda2_0_ooD4rru.webp',
-      d: '2022-05-27',
+      d: '2022-05-22',
       u: `https://www.rferl.org/a/ukraine-poland-duda-visit/31862055.html`,
       t: `
         <p>  
