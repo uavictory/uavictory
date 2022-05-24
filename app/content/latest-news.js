@@ -2,6 +2,10 @@
  */
 const latestNews = [
   {
+    t: `20 countries pledge new weapons for Ukraine at Ramstein 2`,
+    url: 'https://thehill.com/policy/defense/3498282-pentagon-20-countries-agree-to-new-security-aid-for-ukraine/',
+  },
+  {
     t: `82% of Ukrainians ain't in no mood to give up any territory`,
     url: 'https://twitter.com/KyivIndependent/status/1529016253712564225',
   },
