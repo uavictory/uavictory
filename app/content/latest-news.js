@@ -2,12 +2,16 @@
  */
 const latestNews = [
   {
-    t: `Poland terrminates Russian gas contract`,
-    url: 'https://www.euronews.com/2022/05/23/ukraine-crisis-poland-russia',
+    t: `82% of Ukrainians ain't in no mood to give up any territory`,
+    url: 'https://twitter.com/KyivIndependent/status/1529016253712564225',
   },
   {
-    t: 'May 23 Russian loss estimates: +150 troops, +8 tanks, +25 APV, +6 drones...',
-    url: 'https://twitter.com/KyivIndependent/status/1528644115008733185',
+    t: `Ukrainian Intelligence Head: turning point in Aug, active phase of war done by year end (in Ukrainian)`,
+    url: 'https://www.slovoidilo.ua/2022/05/24/novyna/suspilstvo/holova-hur-rozpoviv-koly-nastane-perelomnyj-moment-vijni-rosiyeyu-ta-chym-vona-zakinchytsya',
+  },
+  {
+    t: 'May 24 Russian loss estimates: +150 troops, +9 tanks, +28 APV, +4 drones...',
+    url: 'https://twitter.com/KyivIndependent/status/1528989118700605441',
   },
   {
     t: `May 22 ISW Report: Russians minimal gains in Kharkiv,East. Prepaing more bother in South`,
@@ -20,14 +24,6 @@ const latestNews = [
   {
     t: `Russian concert-goers in St. Petersburg: Fuck War`,
     url: 'https://twitter.com/openculture/status/1528160888485576704',
-  },
-  {
-    t: `Biden signs $40 billion Ukraine aid package into law`,
-    url: 'https://thehill.com/news/administration/3495301-biden-signs-40b-ukraine-aid-package-into-law/',
-  },
-  {
-    t: `UNSTOPPABLE: Kharkiv cat Stepan follows up Ukraine Eurovision triumph with Influencer Award win`,
-    url: 'https://twitter.com/KyivIndependent/status/1527236169251049473',
   },
 ];
 
@@ -58,6 +54,10 @@ const pastNews = [
     date: '2022-05-23',
     items: [
       {
+        t: `Poland terrminates Russian gas contract`,
+        url: 'https://www.euronews.com/2022/05/23/ukraine-crisis-poland-russia',
+      },
+      {
         t: ``,
         url: ``,
       }
@@ -76,6 +76,10 @@ const pastNews = [
     date: '2022-05-21',
     items: [
       {
+        t: `Biden signs $40 billion Ukraine aid package into law`,
+        url: 'https://thehill.com/news/administration/3495301-biden-signs-40b-ukraine-aid-package-into-law/',
+      },
+      {
         t: ``,
         url: ``,
       }
@@ -93,6 +97,10 @@ const pastNews = [
   {
     date: '2022-05-19',
     items: [
+      {
+        t: `UNSTOPPABLE: Kharkiv cat Stepan follows up Ukraine Eurovision triumph with Influencer Award win`,
+        url: 'https://twitter.com/KyivIndependent/status/1527236169251049473',
+      },
       {
         t: ``,
         url: ``,
