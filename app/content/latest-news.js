@@ -2,6 +2,14 @@
  */
 const latestNews = [
   {
+    t: `Kalush Orchestra to auction off Eurovision Trophy - and signature pink bucket hat - to support war effort`,
+    url: 'https://twitter.com/KyivIndependent/status/1529430010142019584',
+  },
+  {
+    t: 'May 25 Russian loss estimates: +100 troops, +3 tanks, +19 APV, +11 drones...',
+    url: 'https://twitter.com/KyivIndependent/status/1529361613416964097',
+  },
+  {
     t: `20 countries pledge new weapons for Ukraine at Ramstein 2`,
     url: 'https://thehill.com/policy/defense/3498282-pentagon-20-countries-agree-to-new-security-aid-for-ukraine/',
   },
@@ -12,10 +20,6 @@ const latestNews = [
   {
     t: `Ukrainian Intelligence Head: turning point in Aug, active phase of war done by year end (in Ukrainian)`,
     url: 'https://www.slovoidilo.ua/2022/05/24/novyna/suspilstvo/holova-hur-rozpoviv-koly-nastane-perelomnyj-moment-vijni-rosiyeyu-ta-chym-vona-zakinchytsya',
-  },
-  {
-    t: 'May 24 Russian loss estimates: +150 troops, +9 tanks, +28 APV, +4 drones...',
-    url: 'https://twitter.com/KyivIndependent/status/1528989118700605441',
   },
   {
     t: `May 22 ISW Report: Russians minimal gains in Kharkiv,East. Prepaing more bother in South`,
