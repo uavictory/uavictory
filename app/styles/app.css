@@ -401,8 +401,8 @@ h2.intel {
 
 .feed-item {
     display: inline-block;
-    width: 400px;
-    height: 300px;
+    width: 474px;
+    /* height: 200px; */
     margin: 4px;
 }
 
@@ -410,4 +410,49 @@ h2.intel {
     width: 100%;
     height: 100%;
     overflow:  hidden;
+}
+
+.feed-track {
+    width: 480px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.scenario-each {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 480px
+}
+
+.playground {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    align-items: center;
+}
+
+.feed-track-beacon {
+    color:white;
+    background-color:black;
+    height:10px;
+    width: 100%;
+    margin: 20px 0;
+    /* border-radius: 50%; */
+}
+.feed-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feed-buttons button {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 2px 6px;
 }
