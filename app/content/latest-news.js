@@ -1,17 +1,22 @@
 /*
  */
 const latestNews = [
+  
+  {
+    t: 'Russians storming on several fronts at the same time, losses are inevitable',
+    url: 'https://news.yahoo.com/ukraines-deputy-minister-defence-maliar-132700467.html',
+  },
+  {
+    t: 'May 26 Russian loss estimates: +150 troops, +10 tanks, +22 APV, +11 drones...',
+    url: 'https://twitter.com/KyivIndependent/status/1529733998641139712',
+  },
+  {
+    t: `May 25 ISW Report: Russians continue to press in east, attempting to surround Severodonetsk`,
+    url: 'https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-may-25',
+  },
   {
     t: `Kalush Orchestra to auction off Eurovision Trophy - and signature pink bucket hat - to support war effort`,
     url: 'https://twitter.com/KyivIndependent/status/1529430010142019584',
-  },
-  {
-    t: 'May 25 Russian loss estimates: +100 troops, +3 tanks, +19 APV, +11 drones...',
-    url: 'https://twitter.com/KyivIndependent/status/1529361613416964097',
-  },
-  {
-    t: `20 countries pledge new weapons for Ukraine at Ramstein 2`,
-    url: 'https://thehill.com/policy/defense/3498282-pentagon-20-countries-agree-to-new-security-aid-for-ukraine/',
   },
   {
     t: `82% of Ukrainians ain't in no mood to give up any territory`,
@@ -20,10 +25,6 @@ const latestNews = [
   {
     t: `Ukrainian Intelligence Head: turning point in Aug, active phase of war done by year end (in Ukrainian)`,
     url: 'https://www.slovoidilo.ua/2022/05/24/novyna/suspilstvo/holova-hur-rozpoviv-koly-nastane-perelomnyj-moment-vijni-rosiyeyu-ta-chym-vona-zakinchytsya',
-  },
-  {
-    t: `May 22 ISW Report: Russians minimal gains in Kharkiv,East. Prepaing more bother in South`,
-    url: 'https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-may-22',
   },
   {
     t: `Polish President Duda returns to Kyiv`,
@@ -39,6 +40,7 @@ const pastNews = [
   {
     date: '2022-05-25',
     items: [
+
       {
         t: ``,
         url: ``,
@@ -61,6 +63,11 @@ const pastNews = [
   {
     date: '2022-05-23',
     items: [
+  {
+    t: `20 countries pledge new weapons for Ukraine at Ramstein 2`,
+    url: 'https://thehill.com/policy/defense/3498282-pentagon-20-countries-agree-to-new-security-aid-for-ukraine/',
+  },
+
       {
         t: `Poland terrminates Russian gas contract`,
         url: 'https://www.euronews.com/2022/05/23/ukraine-crisis-poland-russia',
