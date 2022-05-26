@@ -11,6 +11,21 @@
 
  */
 const visitors = [
+   { 
+      p: 'Sanna Marin',
+      i: 'scholz_senegal_qsyQcYc9L.jpeg',
+      d: '2022-05-23',
+      u: `https://www.rferl.org/a/ukraine-poland-duda-visit/31862055.html`,
+      t: `
+        <p>  
+          Finnish Prime Minister Sanna Marin visits Irpin, Bucha, and Kyiv where she meets Zelensky and Ukrainian Prime Minister Denys Shmyhal
+        </p>
+        <p>
+          "What happened, what Russia did is a turning point for the entire European family and the whole world. We see that the old
+          arrangement has been destroyed and there is no return to the former relationship," she said through a translator.
+        </p>
+        `,
+  },
  { 
       p: 'Olaf Scholz!!!!!  (???)',
       i: 'scholz_senegal_qsyQcYc9L.jpeg',
