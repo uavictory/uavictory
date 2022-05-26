@@ -13,9 +13,9 @@
 const visitors = [
    { 
       p: 'Sanna Marin',
-      i: 'scholz_senegal_qsyQcYc9L.jpeg',
-      d: '2022-05-23',
-      u: `https://www.rferl.org/a/ukraine-poland-duda-visit/31862055.html`,
+      i: 'finland-pm_XKGQaDaLT.jpg',
+      d: '2022-05-25',
+      u: `https://www.ukrinform.net/rubric-polytics/3493137-finlands-pm-on-russia-trust-is-lost-for-generations.html`,
       t: `
         <p>  
           Finnish Prime Minister Sanna Marin visits Irpin, Bucha, and Kyiv where she meets Zelensky and Ukrainian Prime Minister Denys Shmyhal
@@ -30,7 +30,7 @@ const visitors = [
       p: 'Olaf Scholz!!!!!  (???)',
       i: 'scholz_senegal_qsyQcYc9L.jpeg',
       d: '2022-05-23',
-      u: `https://www.rferl.org/a/ukraine-poland-duda-visit/31862055.html`,
+      u: `https://twitter.com/MKarnitschnig/status/1528484104081219584`,
       t: `
         <p>  
           Sorry, no time to visit Ukraine.  Busy in Senegal.
