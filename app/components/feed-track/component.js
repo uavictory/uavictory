@@ -8,25 +8,24 @@ import { easeOut, easeIn } from 'ember-animated/easings/cosine';
 import consts from '../../consts';
 import feedItems from '../../content/feed';
 
-const ITEM_LIMIT = 12;
+const ITEM_LIMIT = 2;
 const DELAY = 2800;
 
 export default class FeedTrackComponent extends Component {
-  feed = feedItems.sort((a, b) => 0.5 - Math.random());
+  urls = feedItems.map(item=>`${consts.imageBaseUrl}/feed/${item.i}`).sort((a, b) => 0.5 - Math.random());
   @tracked items = [new Item(0, this.feed[0])];
   @tracked nextItem = this.feed[1];
-  name = `yang ${this.nextItem.i}`
   itemCount = 0;
-  feedItemCount = this.feed.length;
+  // feedItemCount = this.feed.length;
     
     constructor() {
         super(...arguments);
-        this.startChaos();
+        // this.startChaos();
     }
 
-    get nextUrl() {
-        return `${consts.imageBaseUrl }/feed/${this.nextItem.i}`;
-    }
+    // get nextUrl() {
+    //     return `${consts.imageBaseUrl }/feed/${this.nextItem.i}`;
+    // }
 
   *transition({ insertedSprites, keptSprites, removedSprites, beacons }) {
     insertedSprites.forEach((sprite) => {
@@ -36,42 +35,42 @@ export default class FeedTrackComponent extends Component {
 
     keptSprites.forEach(move);
 
-    removedSprites.forEach((sprite) => {
-      // the 0.8 here is purely so I can easily see that the elements
-      // are being properly removed immediately after they get far
-      // enough
-      sprite.endAtPixel({ x: window.innerWidth * 0.8 });
-      move(sprite, { easing: easeIn });
-    });
+    // removedSprites.forEach((sprite) => {
+    //   // the 0.8 here is purely so I can easily see that the elements
+    //   // are being properly removed immediately after they get far
+    //   // enough
+    //   sprite.endAtSprite(beacons.endAtSprite);
+    //   move(sprite, { easing: easeIn });
+    // });
   }
 
-  @task(function* (running) {
-    if (!running) {
-      return;
-    }
+  // @task(function* (running) {
+  //   if (!running) {
+  //     return;
+  //   }
 
-    while (true) {
-      yield timeout(DELAY);
-      this.addItem();
-    }
-  }).restartable() 
-  chaos;
+  //   while (true) {
+  //     yield timeout(DELAY);
+  //     this.addItem();
+  //   }
+  // }).restartable() 
+  // chaos;
 
 
-  @action addItem() {
-    // This deliberately uses stable keys but unstable objects
-    this.itemCount = this.itemCount + 1 % this.feedItemCount;
-    let fItem = this.feed[this.itemCount];
-    if (this.itemCount < this.feedItemCount) {
-        this.nextItem = this.feed[this.itemCount+1]
-    }
-    let item = new Item(this.itemCount, fItem);
-    if (this.items.length > ITEM_LIMIT) {
-        this.items = this.items.slice(0, ITEM_LIMIT-1);
-    }
-    this.items = this.items.concat(item)
-      .sortBy('id')
-  }
+  // @action addItem() {
+  //   // This deliberately uses stable keys but unstable objects
+  //   this.itemCount = this.itemCount + 1 % this.feedItemCount;
+  //   let fItem = this.feed[this.itemCount];
+  //   if (this.itemCount < this.feedItemCount) {
+  //       this.nextItem = this.feed[this.itemCount+1]
+  //   }
+  //   let item = new Item(this.itemCount, fItem);
+  //   if (this.items.length > ITEM_LIMIT) {
+  //       this.items = this.items.slice(0, ITEM_LIMIT-1);
+  //   }
+  //   this.items = this.items.concat(item)
+  //     .sortBy('id')
+  // }
 
 //   @action removeItem(weich) {
 //     this.items = this.items.filter((i) => i !== which);

@@ -1,18 +1,23 @@
         <div>
             <h1>Capturing the best of the Ukrainian Spirit</h1>
-            <div class="feed-buttons">
+            {{!-- <div class="feed-buttons">
                 <button type="button" {{on "click" this.startChaos}}>Start</button>
                 <button type="button" {{on "click" this.stopChaos}}>Stop</button>
-            </div>
+            </div> --}}
         </div>
-        <div>
+        {{!-- <div>
             <img style='height:1px;width:1px;opacity:0' src={{this.nextUrl}} />
-        </div>
+        </div> --}}
 <div class="feed-track">
 
     <div class="scenario-each">
-
-        {{#animated-beacon name="one"}}
+        {{!-- FI: {{this.feedItems.length}} --}}
+        {{#each this.urls as |url| }}
+            <div class="feed-item">
+                <img src={{url}} />
+            </div>
+        {{/each}}
+        {{!-- {{#animated-beacon name="one"}}
             <div class='feed-track-beacon' />
         {{/animated-beacon}}
         
@@ -24,8 +29,7 @@
                 </div>
                 {{/animated-each}}
             </AnimatedContainer>
-        </div>
-
+        </div> --}}
     </div>
 </div>
 
