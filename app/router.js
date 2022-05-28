@@ -22,4 +22,5 @@ Router.map(function () {
   this.route('visitors');
   this.route('intel');
   this.route('feed');
+  this.route('data');
 });
