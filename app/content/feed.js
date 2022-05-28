@@ -42,7 +42,6 @@ const items = [
     { i: 'wsoldier3_--tU9ybAJ.jpeg'},
     { i: 'one_ukr_tank_against_many_c3M0c20b6.jpeg'},
     { i: 'street_artists_in_kyiv_subway_OTziaW7SP.jpeg'},
-    { i: 'Songbird_of_Mariupol_eHkIqKJuo.avif'},
     { i: 'cat1_ueJOanBbD.jpeg'},
     { i: 'kherson4_7vh6DQoh1.jpeg'},
 ];
