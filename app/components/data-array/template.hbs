@@ -1,0 +1,12 @@
+{{#each this.topics as |topic| }}
+    <div class="data-card" {{on "click" (fn this.setCurrentTopic topic)}}>
+        <div class="data-card-title">{{topic.t}}</div> 
+        <div>
+            <FaIcon class='data-icon fa-4x' @icon={{topic.i}} />
+        </div>
+    </div>
+{{/each}}
+
+<div class="data=content">
+  {{this.currentTopic.t}}
+</div>
