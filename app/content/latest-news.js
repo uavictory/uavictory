@@ -3,6 +3,10 @@
 const latestNews = [
   
   {
+    t: "Lithuania is awesome! It's citizens crowd-source 5 mil Eur to buy Ukraine a Bayraktar!",
+    url: 'https://www.bloomberg.com/news/articles/2022-05-28/lithuanians-raise-5-4-million-to-buy-combat-drone-for-ukraine',
+  },
+  {
     t: 'May 28 Russian loss estimates: troop losses reach 30K, +8 tanks, +12 APV, +4 helicopters...',
     url: 'https://twitter.com/KyivIndependent/status/1530443767274254336',
   },
