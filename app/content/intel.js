@@ -60,14 +60,19 @@ const items = [
 
     links: [
       {
-        n: 'Jomini of the West',
-        u: 'https://twitter.com/JominiW',
-        t: `battlefield updates every few days`,
-      },
-      {
         n: 'Understanding War',
         u: 'https://www.understandingwar.org/',
         t: `daily battlefield updates`,
+      },
+      {
+        n: 'liveuamap.com',
+        u: 'https://liveuamap.com/',
+        t: `live battlefield updates`,
+      },
+      {
+        n: 'Jomini of the West',
+        u: 'https://twitter.com/JominiW',
+        t: `battlefield updates every few days`,
       },
       {
         n: 'General Mick Ryan (ret) ',
