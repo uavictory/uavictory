@@ -31,7 +31,6 @@ const items = [
     { i: 'kherson2_iM-JV45YrO.webp'},
     { i: 'zelensky_in_helmet_GpxRl9tH75.webp'},
     { i: 'bombardment_Q2EU8wesK.jpeg'},
-    // { i: '_Taras_Kompanichenko_joins_the_territorial_defence__RhCPTREpDz.jpeg'},
     { i: 'bunker_cat_s_PPhco3c.jpeg'},
     { i: 'azon_brigade_commander_Maj._Serhiy_Volyna_yotxKZ0vY.jpeg'},
     { i: 'kherson3_G3x2ZnzsD.webp'},
@@ -44,6 +43,8 @@ const items = [
     { i: 'street_artists_in_kyiv_subway_OTziaW7SP.jpeg'},
     { i: 'cat1_ueJOanBbD.jpeg'},
     { i: 'kherson4_7vh6DQoh1.jpeg'},
+    { i: 'kalush_buys_drones_97druU3mhf.png'},
+    { i: 'taras_at_marriage_4XtP7E3veN.png'},
 ];
 
 export default items;
