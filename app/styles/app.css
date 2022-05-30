@@ -646,3 +646,15 @@ h2.intel {
         font-weight: bold;
         background-color: lightgray
     }
+
+    .data-content {
+        background-color: lightgray;
+
+    }
+    .data-viewer { 
+        width: 800px;
+    }
+    .data-iframe {
+        width: 100%;
+        height: 500px;
+    }
