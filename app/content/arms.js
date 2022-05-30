@@ -1,6 +1,8 @@
 import { faUniversalAccess } from "@fortawesome/free-solid-svg-icons";
 /*
     arms: {
+      smallArms:
+      atgm
       tanks: ``,
       apv: ``,
       artillery: ``,
