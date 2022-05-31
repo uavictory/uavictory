@@ -11,6 +11,20 @@
 
  */
 const visitors = [
+  
+   { 
+      p: 'Catherine Colonna',
+      i: 'colona_izfWZk82a.jpeg',
+      d: '2022-05-30',
+      u: `https://www.lemonde.fr/en/politics/article/2022/05/30/new-french-minister-of-foreign-affairs-catherine-colonna-makes-a-surprise-visit-to-kyiv_5985081_5.html`,
+      t: `
+        <p>  
+          In the first visit to Ukraine by a French leader since the Russian invasion, newly-appointed Foreign Minister
+          Catherine Colonna made a surprise visit to Kyiv to "demonstrate France's solidarity with the Ukrainian people 
+          and its full determination to strengthen its support for Ukraine in the face of Russian aggression."
+        </p>
+        `,
+  },
    { 
       p: 'Sanna Marin',
       i: 'finland-pm_XKGQaDaLT.jpg',
