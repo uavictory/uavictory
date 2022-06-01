@@ -456,3 +456,168 @@ h2.intel {
     font-weight: bold;
     padding: 2px 6px;
 }
+
+.bayraktar-animation {
+    width: 100%;
+    position: absolute;
+}
+
+.bayraktar {
+    position: absolute;
+    display: inline-block;
+    height: 55px;
+    width: 60px;
+    z-index: 100;
+    top: -75px;
+    left: 220px;
+}
+
+.b2 {
+    transition-duration: 3s;
+    left: 70%;
+}
+
+.b3 {
+    transition-duration: 1s;
+    left: 90%;
+    top: -500px;
+}
+
+.invis { opacity: 0; }
+
+.tank {
+    position: absolute;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    z-index: 100;
+    top: 160px;
+    left: -100px;
+}
+
+.tank.t1 {
+    left: 8%;
+    transition-duration: 2s;
+}
+
+.tank.t2 {
+    left: 86%;
+    transition-duration: 3s;
+}
+
+.lith {
+    position: absolute;
+    display: inline-block;
+    height: 40px;
+    z-index: 100;
+    top: -60px;
+    left: 80px;
+}
+
+.turkey {
+    position: absolute;
+    display: inline-block;
+    height: 50px;
+    z-index: 100;
+    top: -70px;
+    left: 220px;
+}
+
+.msg1 {
+    position: absolute;
+    display: inline-block;
+    z-index: 100;
+    height: 50px;
+    top: -18px;
+    left: 65px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 18px;
+}
+
+.msg2 {
+    position: absolute;
+    display: inline-block;
+    z-index: 100;
+    height: 50px;
+    top: -18px;
+    left: 228px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 18px;
+}
+
+.missile {
+    position: absolute;
+    display: inline-block;
+    height: 14px;
+    z-index: 90;
+    top: -50px;
+    left: 71%;
+    font-size: 18px;
+    transform: rotate(30deg);
+}
+
+.missile.fire {
+    transition-duration: 240ms;
+    opacity: 1.0;
+    top: 200px;
+    left: 88%;
+}
+
+.explosion {
+    position: absolute;
+    display: inline-block;
+    z-index: 110;
+    top: 190px;
+    left: 90%;
+    height: 0;
+}
+
+.explosion.e1 {
+    transition-duration: 200ms;
+    height: 160px;
+    top: 110px;
+    left: 80%;
+}
+
+.explosion.e2 {
+    left: 86.5%;
+    opacity: 0;
+}
+
+.appear1 {
+    opacity: 1.0;
+    transition-duration: 1s;
+}
+
+.appear2 {
+    opacity: 1.0;
+    transition-duration: 2s;
+}
+
+.disappear-500ms {
+    opacity: 0.0;
+    transition-duration: 500ms;
+}
+.disappear1 {
+    opacity: 0.0;
+    transition-duration: 1s;
+}
+
+.thanks {
+    position: absolute;
+    display: inline-block;
+    z-index: 110;
+    top: 0px;
+    left: 78%;
+    color: white;
+    background-image: linear-gradient(180deg, #FFB81C, #046A38, #DA291C);
+    border-radius: 4px;
+    padding: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 26px;
+}
