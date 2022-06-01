@@ -7,13 +7,21 @@ const latestNews = [
     url: 'https://www.bloomberg.com/news/articles/2022-05-28/lithuanians-raise-5-4-million-to-buy-combat-drone-for-ukraine',
   },
   {
-    t: 'May 28 Russian loss estimates: troop losses reach 30K, +8 tanks, +12 APV, +4 helicopters...',
-    url: 'https://twitter.com/KyivIndependent/status/1530443767274254336',
+    t: `Latest strategic assessment from Jomini of the West`,
+    url: 'https://twitter.com/JominiW/status/1531802118155296771',
   },
   {
-    t: `May 27 ISW Report: Russians advance into Severodonetsk, and from Lyman, Popasna: prospects unclear`,
-    url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
+    t: 'US to supply Ukraine with long-range MLRS',
+    url: 'https://www.nbcnews.com/politics/national-security/biden-may-announce-new-ukraine-aid-package-longer-range-rocket-systems-rcna31329',
   },
+  {
+    t: 'June 1 Russian loss estimates: +200 troops, +3 tanks, +41 APV, +4 UAV...',
+    url: 'https://twitter.com/KyivIndependent/status/1531901396005621760',
+  },
+  // {
+  //   t: `May 27 ISW Report: Russians advance into Severodonetsk, and from Lyman, Popasna: prospects unclear`,
+  //   url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
+  // },
   {
     t: 'Russians storming on several fronts at the same time, losses are inevitable',
     url: 'https://news.yahoo.com/ukraines-deputy-minister-defence-maliar-132700467.html',
