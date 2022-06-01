@@ -11,7 +11,22 @@
 
  */
 const visitors = [
-  
+   { 
+      p: 'Zuzana Čaputová',
+      i: 'caputova__IDS6YFwM.jpeg',
+      d: '2022-05-31',
+      u: `https://www.ukrinform.net/rubric-polytics/3493137-finlands-pm-on-russia-trust-is-lost-for-generations.html`,
+      t: `
+      <p>
+        President of the Slovak Republic is in Kyiv showing her support
+        for Ukraine. 
+      </p>
+      <p>  
+        "The people of #Ukraine are paying a huge price for freedom. 
+        We stand by you & your nation, Mr President!", she tweeted.
+      </p>
+      `
+   },
    { 
       p: 'Catherine Colonna',
       i: 'colona_izfWZk82a.jpeg',
