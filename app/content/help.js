@@ -45,6 +45,11 @@ const items = [
             u: `https://www.comebackalive.in.ua/`,
             t: `since 2014, one of the largest charities supporting the Armed Forces of Ukraine`,
           },
+          {
+            n: `Czech Embassy in Ukraine`,
+            u: `https://supportukraine.cz/en.html`,
+            t: `donate to buy arms through the Czech embassy`,
+          },
         ],
       },
     ],
