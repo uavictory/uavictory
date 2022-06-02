@@ -3,7 +3,11 @@
 const latestNews = [
   
   {
-    t: "Lithuania is awesome! It's citizens crowd-source 5 mil Eur to buy Ukraine a Bayraktar!",
+    t: "Türkiye is awesome! Says Lithuanians can have Ukrainian-bound Bayraktar for free!",
+    url: 'https://www.aa.com.tr/en/economy/turkish-defense-firm-to-send-bayraktar-drone-to-lithuania-for-free/2604422',
+  },
+  {
+    t: "Lithuania is awesome! Citizens crowd-source 5 mil Eur to buy Ukraine a Bayraktar!",
     url: 'https://www.bloomberg.com/news/articles/2022-05-28/lithuanians-raise-5-4-million-to-buy-combat-drone-for-ukraine',
   },
   {
@@ -11,8 +15,8 @@ const latestNews = [
     url: 'https://twitter.com/JominiW/status/1531802118155296771',
   },
   {
-    t: 'US to supply Ukraine with long-range MLRS',
-    url: 'https://www.nbcnews.com/politics/national-security/biden-may-announce-new-ukraine-aid-package-longer-range-rocket-systems-rcna31329',
+    t: 'UK joins US in supplying Ukraine with MLRS',
+    url: 'https://www.ukrinform.net/rubric-ato/3497864-uk-to-give-ukraine-80kmrange-mlr-systems-defense-secretary.html',
   },
   {
     t: 'June 1 Russian loss estimates: +200 troops, +3 tanks, +41 APV, +4 UAV...',
@@ -37,6 +41,15 @@ const latestNews = [
 ];
 
 const pastNews = [
+  {
+    date: '2022-05-31',
+    items: [
+      {
+        t: 'US to supply Ukraine with long-range MLRS',
+        url: 'https://www.nbcnews.com/politics/national-security/biden-may-announce-new-ukraine-aid-package-longer-range-rocket-systems-rcna31329',
+      },
+    ],
+  },
   {
     date: '2022-05-25',
     items: [
