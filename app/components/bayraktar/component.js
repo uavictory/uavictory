@@ -11,9 +11,11 @@ export default class Bayraktar extends Component {
   @tracked tuClass = "turkey invis";
   @tracked msg1Class = "msg1 invis"; 
   @tracked msg2Class = "msg2 invis"; 
+  @tracked msg3Class = "msg3 invis"; 
   @tracked misClass = "missile invis"; 
   @tracked expClass = "explosion invis"; 
-  @tracked tyClass = "thanks invis"; 
+  @tracked tyLitClass = "thanks invis "; 
+  @tracked tyTurkeyClass = "thanks-t invis"; 
 
   constructor() {
     super(...arguments);
@@ -33,12 +35,17 @@ export default class Bayraktar extends Component {
     this.tuClass = "turkey appear1"
     await sleep(800)
     this.msg2Class = "msg2 appear2"
-    await sleep(1600)
-    this.lClass = 'lith disappear1';
+    await sleep(2000)
     this.msg1Class = 'msg1 disappear-500ms';
     this.msg2Class = 'msg2 disappear-500ms';
+    await sleep(400)
+    this.msg3Class = "msg3 appear2"
+    await sleep(1600)
+    this.lClass = 'lith disappear1';
     await sleep(400);
     this.tuClass = 'turkey disappear-500ms';
+    this.msg3Class = 'msg3 disappear-500ms';
+
     await sleep(700);
     this.bClass = "bayraktar appear2"
     
@@ -58,9 +65,13 @@ export default class Bayraktar extends Component {
     await sleep(600);
 
     // thanks
-    this.tyClass = 'thanks appear1'
+    this.tyLitClass = 'thanks appear1'
+    await sleep(500)
+    this.tyTurkeyClass = 'thanks-t appear1'
     await sleep(2600)
-    this.tyClass = 'thanks disappear1'
+    this.tyLitClass = 'thanks disappear1'
+    await sleep(500)
+    this.tyTurkeyClass = 'thanks-t disappear1'
     await sleep(300)
     this.bClass = "bayraktar b3"
   }
