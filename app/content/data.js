@@ -14,16 +14,45 @@ https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.htm
 const items = [
     {
         t: 'Weapons supplies to Ukraine',
-        i: 'jet-fighter',
-        u: 'https://www.forumarmstrade.org/ukrainearms.html',
+        fa: 'jet-fighter',
+    },
+    {
+        t: 'Sanctions',
+        fa: 'ban',
+    },
+    {
+        t: 'Humanitarian Aid',
+        file: 'humanitarian.png',
+    },
+    {
+        t: 'Russian Officer Losses',
+        fa: 'person-falling-burst',
+        component: 'russian-officer-losses',
     },
     {
         t: 'Refugees',
-        i: 'tents',
+        fa: 'tents',
     },
     {
-        t: 'Russian',
-        i: 'fire-flame-simple',
+        t: 'Russian Energy Dependency',
+        fa: 'fire-flame-simple',
+    },
+    {
+        t: 'Ukraine support: Countries',
+        fa: 'globe',
+        ukr: true,
+    },
+    {
+        t: 'Companies in Russia',
+        fa: 'building',
+    },
+    {
+        t: 'Weapons Deployment',
+        fa: 'fire-flame-simple',
+    },
+    {
+        t: 'Weapons Range',
+        file: 'missile.png',
     },
 ];
 
