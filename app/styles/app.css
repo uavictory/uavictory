@@ -623,15 +623,24 @@ h2.intel {
 }
 
 .data-card {
-    height: 140px;
-    width: 140px;
-    background-color: bisque;
+    height: 8rem;
+    width: 8rem;
+    background-color: white;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin: 2px;
+    border: 3px black solid;
     border-radius: 8px;
+}
+
+.data-card.selected {
+    border: 3px red solid;
+}
+
+.data-card.data-todo {
+    background-color: lightgray;
 }
 
 .data-card-title {
