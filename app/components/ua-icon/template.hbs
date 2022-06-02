@@ -1,0 +1,7 @@
+{{#if @icon.fa}}
+  <FaIcon class='data-icon fa-3x' @icon={{@icon.fa}} />
+{{else}}
+  <span style="color:black">
+    <img class="data-img" src={{this.src}} />
+  </span>
+{{/if}}
