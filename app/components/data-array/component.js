@@ -11,4 +11,8 @@ export default class DataArrayComponent extends Component {
   setCurrentTopic(topic) {
     this.currentTopic = topic;
   }
+
+  get component() {
+    return this.currentTopic.component;
+  }
 }

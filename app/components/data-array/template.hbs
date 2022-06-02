@@ -2,11 +2,21 @@
     <div class="data-card" {{on "click" (fn this.setCurrentTopic topic)}}>
         <div class="data-card-title">{{topic.t}}</div> 
         <div>
-            <FaIcon class='data-icon fa-4x' @icon={{topic.i}} />
+          <UaIcon @icon={{topic}} @dir="data-icons" />
         </div>
     </div>
 {{/each}}
 
-<div class="data=content">
-  {{this.currentTopic.t}}
+<div class="data-content">
+
+  <h1>
+    {{this.currentTopic.t}}
+  </h1>
+
+{{!-- {{component myComponentName param2=param2 param3=param3 ...}} --}}
+  {{#if this.component}}
+    {{component this.component }}
+  {{else}}
+    <div style="margin-top:2rem;font-size:4rem;font-style:italic;color:blue">Coming soon!</div>
+  {{/if}}
 </div>
