@@ -2,6 +2,9 @@ $ua-blue: #005BBB;
 $ua-yellow: #FFD500;
 $ru-blue: #0033A0;
 $ru-red: #DA291C;
+$ytview-width: 380px; //set in youtube-item component
+$ytview-height: $ytview-width * 9/16;
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -247,15 +250,23 @@ h3.special-item {
 
 .song {
     display: flex;
-    margin: 50px 0;
+    margin: 40px 0;
     /* overflow: hidden; */
     /* width: 550px; */
     /* padding-top: 56.25%;  */
 }
+.video-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; 
+}
 
 .song-details {
-    margin: 10px 20px;
-    width: 432px;
+    // margin: 10px 20px;
+    width: $ytview-width;
+    max-width: 100%;
     font-size: 15px;
 }
 .song-name {
@@ -269,16 +280,40 @@ h3.special-item {
 
 .song-cards {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 95%;
     max-width: 900px;
     margin: 0 auto;
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
   }
 
 .song-card {
     padding: 1rem;
-    max-height: 243px;
+    max-height: $ytview-height;
+    max-width: 90%;
+}
+
+.ytube-card {
+    max-height: $ytview-height;
+    position: relative; 
+    padding-bottom: 56.25%; 
+    // padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; 
   }
+
+.video-container iframe, .video-container object, .video-container embed { 
+    position: absolute; 
+    top: 0; left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.song-sep {
+    border-bottom: gray 1px solid;
+    width: 20%;
+    text-align: center;
+}
 
 .art-cards {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -480,7 +515,7 @@ h2.intel {
     height: 55px;
     width: 60px;
     top: -75px;
-    left: 220px;
+    left: 25%;
 }
 
 .b2 {
