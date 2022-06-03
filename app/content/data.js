@@ -22,7 +22,7 @@ const items = [
     },
     {
         t: 'Humanitarian Aid',
-        file: 'humanitarian.png',
+        file: 'humanitarian_j2S7Wt7XZ.png',
     },
     {
         t: 'Russian Officer Losses',
@@ -52,7 +52,7 @@ const items = [
     },
     {
         t: 'Weapons Range',
-        file: 'missile.png',
+        file: 'missile_7ln1SxYjQ.png',
     },
 ];
 
