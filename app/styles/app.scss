@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    margin: 40px;
+    margin: 0.5rem;
 }
 
 .intel-outer {
@@ -79,12 +79,11 @@ a.help-btn {
 }
 
 .main-menu a {
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none;
     display: block;
     margin-top: 4px;
-    margin-left: 15px;
-    width: 50px;
+    margin-right: 13px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
@@ -202,25 +201,34 @@ h3.special-item {
 }
 
 .main-timeline {
-    margin: 4px 12px;
+    // margin: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .event-date {
     display: flex;
     justify-content: space-between;
     font-family: 'Courier New', Courier, monospace;
     margin: 10px 0;
+    padding: 10px 30px;
     font-weight: bold;
+    width: 95%;
+    max-width: 900px;
 }
 
 .event-text {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    padding: 10px 30px;
+    padding: 10px 50px;
+    max-width: 800px;
 }
 
 .event-image {
     margin: 30px 0;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
