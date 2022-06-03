@@ -1,3 +1,8 @@
+$ua-blue: #005BBB;
+$ua-yellow: #FFD500;
+$ru-blue: #0033A0;
+$ru-red: #DA291C;
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -19,14 +24,14 @@ main {
 .banner-top {
     height: 5px;
     margin-bottom: 10px;
-    background-color: #005BBB; 
+    background-color: $ua-blue; 
     width: 100%;
 }
 
 .banner-bottom {
     height: 5px;
     margin-top: 10px;
-    background-color: #FFD500;
+    background-color: $ua-yellow; 
     width: 100%;
 }
 
@@ -82,7 +87,7 @@ a.help-btn {
 }
 
 .main-menu a:hover {
-     color: #005BBB; 
+     color: $ua-blue; 
 }
 
 .countdown {
@@ -97,8 +102,8 @@ a.help-btn {
 .countdown-days {
     display: inline-block;
     font-size: 23px;
-    color: #005BBB; 
-    text-shadow:#FFD500;
+    color: $ua-blue;
+    text-shadow:$ua-yellow;
 }
 
 .countdown-text {
@@ -110,13 +115,13 @@ a.help-btn {
 
 .countdown-bar {
     height: 30px;
-    background-image: linear-gradient(180deg, #005BBB,#FFD500);
+    background-image: linear-gradient(180deg, $ua-blue, $ua-yellow);
     margin: 16px 0 0 0;
 }
 
 .inner-countdown-bar {
     height: 100%;
-    background-image: linear-gradient(130deg, white, #0033A0, #DA291C);
+    background-image: linear-gradient(130deg, white, $ru-blue, $ru-red); 
     opacity: 80%;
     float: right;
 }
@@ -138,8 +143,8 @@ a.help-btn {
 
 .under-countdown a {
     text-decoration: none;
-    color: #005BBB; 
-    text-shadow:#FFD500;
+    color: $ua-blue; 
+    text-shadow:$ua-yellow;
 }
 
 .todays-news {
@@ -226,7 +231,7 @@ h3.special-item {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
-    background-image: linear-gradient(180deg, #005BBB,#FFD500);
+    background-image: linear-gradient(180deg, $ua-blue,$ua-yellow);
     color: white;
     padding: 6px;
 }
@@ -391,7 +396,7 @@ h2.intel {
 
 .intel-li-link a {
     font-weight: bold;
-    color: #005BBB; 
+    color: $ua-blue; 
     text-decoration: none;
 }
 
@@ -462,12 +467,18 @@ h2.intel {
     position: absolute;
 }
 
-.bayraktar {
+/* bayraktar */
+
+@mixin animation-elem($zIndex: 10) {
     position: absolute;
     display: inline-block;
+    z-index: $zIndex;
+}
+
+.bayraktar {
+    @include animation-elem;
     height: 55px;
     width: 60px;
-    z-index: 100;
     top: -75px;
     left: 220px;
 }
@@ -486,11 +497,11 @@ h2.intel {
 .invis { opacity: 0; }
 
 .tank {
+    @include animation-elem;
     position: absolute;
     display: inline-block;
     height: 60px;
     width: 60px;
-    z-index: 100;
     top: 160px;
     left: -100px;
 }
@@ -506,27 +517,21 @@ h2.intel {
 }
 
 .lith {
-    position: absolute;
-    display: inline-block;
+    @include animation-elem;
     height: 40px;
-    z-index: 100;
     top: -60px;
     left: 80px;
 }
 
 .turkey {
-    position: absolute;
-    display: inline-block;
+    @include animation-elem;
     height: 50px;
-    z-index: 100;
     top: -70px;
     left: 220px;
 }
 
 .msg1 {
-    position: absolute;
-    display: inline-block;
-    z-index: 100;
+    @include animation-elem;
     top: -18px;
     left: 65px;
     font-family: 'Courier New', Courier, monospace;
@@ -538,9 +543,7 @@ h2.intel {
 }
 
 .msg2 {
-    position: absolute;
-    display: inline-block;
-    z-index: 100;
+    @include animation-elem;
     top: -18px;
     left: 228px;
     font-family: 'Courier New', Courier, monospace;
@@ -552,9 +555,7 @@ h2.intel {
 }
 
 .msg3 {
-    position: absolute;
-    display: inline-block;
-    z-index: 100;
+    @include animation-elem;
     top: -18px;
     left: 150px;
     font-family: 'Courier New', Courier, monospace;
@@ -566,10 +567,8 @@ h2.intel {
 }
 
 .missile {
-    position: absolute;
-    display: inline-block;
+    @include animation-elem(9);
     height: 18px;
-    z-index: 90;
     top: -50px;
     left: 71%;
     transform: rotate(30deg);
@@ -583,9 +582,7 @@ h2.intel {
 }
 
 .explosion {
-    position: absolute;
-    display: inline-block;
-    z-index: 110;
+    @include animation-elem(11);
     top: 190px;
     left: 90%;
     height: 0;
@@ -623,9 +620,7 @@ h2.intel {
 }
 
 .thanks {
-    position: absolute;
-    display: inline-block;
-    z-index: 110;
+    @include animation-elem(11);
     top: -40px;
     right: 4%;
     color: white;
@@ -638,9 +633,7 @@ h2.intel {
 }
 
 .thanks-t {
-    position: absolute;
-    display: inline-block;
-    z-index: 110;
+    @include animation-elem(110);
     top: 40px;
     right: 4%;
     color: white;
