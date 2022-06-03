@@ -56,7 +56,7 @@ export default class Bayraktar extends Component {
     this.bClass = "bayraktar b2"
     await sleep(3200);
     this.misClass = 'missile fire'
-    await sleep(380)
+    await sleep(375)
     this.expClass = 'explosion e1'
     this.tClass = "tank invis"
     this.misClass = 'missile invis'
