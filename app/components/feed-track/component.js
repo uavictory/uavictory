@@ -1,9 +1,9 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
-import { action } from '@ember/object';
-import { task, timeout } from 'ember-animated/-private/ember-scheduler';
-import move from 'ember-animated/motions/move';
-import { easeOut, easeIn } from 'ember-animated/easings/cosine';
+// import { action } from '@ember/object';
+// import { task, timeout } from 'ember-animated/-private/ember-scheduler';
+// import move from 'ember-animated/motions/move';
+// import { easeOut, easeIn } from 'ember-animated/easings/cosine';
 
 import consts from '../../consts';
 import feedItems from '../../content/feed';
@@ -27,13 +27,13 @@ export default class FeedTrackComponent extends Component {
     //     return `${consts.imageBaseUrl }/feed/${this.nextItem.i}`;
     // }
 
-  *transition({ insertedSprites, keptSprites, removedSprites, beacons }) {
-    insertedSprites.forEach((sprite) => {
-      sprite.startAtSprite(beacons.one);
-      move(sprite, { easing: easeOut });
-    });
+  // *transition({ insertedSprites, keptSprites, removedSprites, beacons }) {
+  //   insertedSprites.forEach((sprite) => {
+  //     sprite.startAtSprite(beacons.one);
+  //     move(sprite, { easing: easeOut });
+  //   });
 
-    keptSprites.forEach(move);
+  //   keptSprites.forEach(move);
 
     // removedSprites.forEach((sprite) => {
     //   // the 0.8 here is purely so I can easily see that the elements
@@ -42,7 +42,7 @@ export default class FeedTrackComponent extends Component {
     //   sprite.endAtSprite(beacons.endAtSprite);
     //   move(sprite, { easing: easeIn });
     // });
-  }
+  // }
 
   // @task(function* (running) {
   //   if (!running) {
@@ -85,14 +85,14 @@ export default class FeedTrackComponent extends Component {
 //       .concat(items.slice(index + 1));
 //   }
 
-  @action startChaos() {
-    // this.addItem();
-    this.chaos.perform(true);
-  }
+  // @action startChaos() {
+  //   // this.addItem();
+  //   this.chaos.perform(true);
+  // }
 
-  @action stopChaos() {
-    this.chaos.perform(false);
-  }
+  // @action stopChaos() {
+  //   this.chaos.perform(false);
+  // }
 }
 
 class Item {
