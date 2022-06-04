@@ -3,6 +3,8 @@
   <Link @url="https://twitter.com/KilledInUkraine" @txt="Russian Officers Killed in Ukraine" /> 
   &nbsp;
   <Link @url='https://docs.google.com/spreadsheets/d/1_bpIqkzD88hlSpA-PDZenSQGNnVnxz3lwYHKViSyuUc/edit#gid=1651879573' @txt="Full data" />
+  <br/>
+  <span class="small-txt">Updated: {{this.link.updated}}</span>
 </p>
 
-<img class="officers-killed-img" src="https://pbs.twimg.com/media/FUJw4AJXsAAf6EB?format=png&name=small" />
+<img class="officers-killed-img" src={{this.link.url}} />

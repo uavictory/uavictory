@@ -28,7 +28,7 @@ const items = [
     {
         t: 'Russian Officer Losses',
         fa: 'person-falling-burst',
-        component: 'russian-officer-losses',
+        component: 'data/russian-officer-losses',
     },
     {
         t: 'Refugees',
