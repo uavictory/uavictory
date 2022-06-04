@@ -105,10 +105,10 @@
 
 .missile {
     @include animation-elem(9);
-    height: 18px;
+    height: 14px;
     top: -50px;
     left: 71%;
-    transform: rotate(30deg);
+    transform: rotate(45deg);
 }
 
 .missile.fire {
