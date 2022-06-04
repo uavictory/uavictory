@@ -1,26 +1,35 @@
 
-.data-card {
-    height: 8rem;
-    width: 8rem;
+@import 'vars';
+
+@mixin col-flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-menu-card {
+    height: 6rem;
+    width: 6rem;
     background-color: white;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 0.2rem;
     margin: 2px;
     border: 3px black solid;
     border-radius: 8px;
 }
 
-.data-card.selected {
+.data-menu-card.selected {
     border: 3px red solid;
 }
 
-.data-card.data-todo {
+.data-menu-card.data-todo {
     background-color: lightgray;
 }
 
-.data-card-title {
+.data-menu-card-title {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +37,7 @@
     text-align: center;
     padding: .3rem .2rem;
     height: 60px;
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: bold;
 }
 
@@ -49,11 +58,42 @@
     width: 70%;
 }
 
-.data-tab-icon {
-    height: 2rem;
-    background-color: yellow;
-}
-
 .data-img {
     height: 3rem;
+}
+
+.weapons-cards {
+    width: 95%;
+    // max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1rem;
+}
+
+.weapons-card {
+  // min-width: 250px;
+  @include col-flex-center;
+  padding: 0.5rem;
+  max-width: 350px;
+  height: 400px;
+  background-color: #EAEAFE;
+  border: 3x black solid;
+  border-radius: 8px;
+
+  h3 {
+    margin: 0.1rem 0 0.5rem 0;
+    color: $ua-blue;
+  }
+}
+
+.weapon {
+  margin-bottom: 0.5rem;
+}
+.arms-lbl {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.arms-txt {
+  font-size: 1.1rem;
 }

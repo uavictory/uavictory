@@ -1,0 +1,11 @@
+<div class="weapons-card">
+  <h3>{{this.country}}</h3> 
+  <div class="weapons">
+    {{#each this.arms as |arm|}}
+      <div class="weapon">
+        <span class="arms-lbl">{{arm.lbl}}:</span>
+        <span class="arms-txt">{{arm.txt}}</span>
+      </div>
+    {{/each}}
+  </div>
+</div>

@@ -1,7 +1,18 @@
 /*
  */
 const latestNews = [
-  
+  {
+    t: 'Ukrainians and International Legion Counterattacking in Severodonetsk',
+    url: 'https://odessa-journal.com/russian-units-withdraw-from-severodonetsk-due-to-the-international-legion-counter-offensive/',
+  },
+  {
+    t: `Latest ISW Report: Shoigu says attack, but Russians troops on defensive`,
+    url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
+  },
+  {
+    t: 'June 4 Russian loss estimates: +100 troops, +9 tanks, +13 APV, +5 UAV...',
+    url: 'https://twitter.com/KyivIndependent/status/1533011504265560064',
+  },
   {
     t: "Türkiye is awesome! Says Lithuanians can have Ukrainian-bound Bayraktar for free!",
     url: 'https://www.aa.com.tr/en/economy/turkish-defense-firm-to-send-bayraktar-drone-to-lithuania-for-free/2604422',
@@ -9,34 +20,6 @@ const latestNews = [
   {
     t: "Lithuania is awesome! Citizens crowd-source 5 mil Eur to buy Ukraine a Bayraktar!",
     url: 'https://www.bloomberg.com/news/articles/2022-05-28/lithuanians-raise-5-4-million-to-buy-combat-drone-for-ukraine',
-  },
-  {
-    t: `Latest strategic assessment from Jomini of the West`,
-    url: 'https://twitter.com/JominiW/status/1531802118155296771',
-  },
-  {
-    t: 'UK joins US in supplying Ukraine with MLRS',
-    url: 'https://www.ukrinform.net/rubric-ato/3497864-uk-to-give-ukraine-80kmrange-mlr-systems-defense-secretary.html',
-  },
-  {
-    t: 'June 1 Russian loss estimates: +200 troops, +3 tanks, +41 APV, +4 UAV...',
-    url: 'https://twitter.com/KyivIndependent/status/1531901396005621760',
-  },
-  // {
-  //   t: `May 27 ISW Report: Russians advance into Severodonetsk, and from Lyman, Popasna: prospects unclear`,
-  //   url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
-  // },
-  {
-    t: 'Russians storming on several fronts at the same time, losses are inevitable',
-    url: 'https://news.yahoo.com/ukraines-deputy-minister-defence-maliar-132700467.html',
-  },
-  {
-    t: `82% of Ukrainians ain't in no mood to give up any territory`,
-    url: 'https://twitter.com/KyivIndependent/status/1529016253712564225',
-  },
-  {
-    t: `Ukrainian Intelligence Head: turning point in Aug, active phase of war done by year end (in Ukrainian)`,
-    url: 'https://www.slovoidilo.ua/2022/05/24/novyna/suspilstvo/holova-hur-rozpoviv-koly-nastane-perelomnyj-moment-vijni-rosiyeyu-ta-chym-vona-zakinchytsya',
   },
 ];
 
@@ -64,8 +47,16 @@ const pastNews = [
     date: '2022-05-24',
     items: [
       {
+        t: `Ukrainian Intelligence Head: turning point in Aug, active phase of war done by year end (in Ukrainian)`,
+        url: 'https://www.slovoidilo.ua/2022/05/24/novyna/suspilstvo/holova-hur-rozpoviv-koly-nastane-perelomnyj-moment-vijni-rosiyeyu-ta-chym-vona-zakinchytsya',
+      },
+      {
         t: `Russians try to cross Siverskyi Donets river again! Reports they lost whole BTG - again! `,
         url: 'https://twitter.com/EuromaidanPress/status/1528330661752348677',
+      },
+      {
+        t: `82% of Ukrainians ain't in no mood to give up any territory`,
+        url: 'https://twitter.com/KyivIndependent/status/1529016253712564225',
       },
       {
         t: ``,

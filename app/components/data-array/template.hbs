@@ -1,8 +1,8 @@
 {{#each this.topics as |topic| }}
-    <div class="data-card {{if (eq topic this.currentTopic) 'selected' ''}} {{if topic.component '' 'data-todo'}}" 
+    <div class="data-menu-card {{if (eq topic this.currentTopic) 'selected' ''}} {{if topic.component '' 'data-todo'}}" 
     {{on "click" (fn this.setCurrentTopic topic)}}
     >
-        <div class="data-card-title">{{topic.t}}</div> 
+        <div class="data-menu-card-title">{{topic.t}}</div> 
         <div>
           <UaIcon @icon={{topic}} @path={{this.iconPath}} @dir="icons" />
         </div>

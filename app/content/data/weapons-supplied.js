@@ -1,21 +1,19 @@
-import { faUniversalAccess } from "@fortawesome/free-solid-svg-icons";
-/*
-    arms: {
-      smallArms:
-      atgm
-      tanks: ``,
-      apv: ``,
-      artillery: ``,
-      mlrs: ``,
-      aa: ``,
-      planes: ``,
-      helicoptors: ``,
-      uav: ``,
-      vehicles: ``,
-      other: ``,
-    },
-    */
-const arms = [
+export const armsTypes = [
+  {key: 'planes', label: 'Planes'},
+  {key: 'uav', label: 'UAV'},
+  {key: 'helicoptors', label: 'Helicopters'},
+  {key: 'artillery', label: 'Artillery'},
+  {key: 'mlrs', label: 'MLRS'},
+  {key: 'aa', label: 'Anti-air'},
+  {key: 'tanks', label: 'Tanks'},
+  {key: 'apv', label: 'APV'},
+  {key: 'atgm', label: 'ATGM'},
+  {key: 'smallArms', label: 'Small arms'},
+  {key: 'vehicles', label: 'Vehicles'},
+  {key: 'other', label: 'Other'},
+];
+
+const data = [
   {
     c: 'austrailia',
     val: 200,
@@ -222,13 +220,6 @@ const arms = [
     },
   },
   {
-    c: 'Norther Macedonia',
-    val: 0,
-    arms: {
-      other: `unspecified`,
-    },
-  },
-  {
     c: 'Norway',
     val: 0,
     arms: {
@@ -330,23 +321,33 @@ const arms = [
     val: 44000,
     asof: `2022-05-10`,
     arms: {
-      smallArms: `7000+ small arms, M18A1 Claymore anti-personnel mines`,
-      ammunition: `200k 155mm artillery rounds, 50 mil rounds, C-4 explosives`,
-      artillery: `90 155mm howitzers (with 72 tow vehicles), laser-guided rocket systems`,
-      apc: `100s of high mobility vehicles, 200 M113 APC`,
+      smallArms: `7000+ small arms, M18A1 Claymore mines`,
+      ammunition: `200k 155mm artillery rounds, 50mil rounds, C-4 explosives`,
+      artillery: `90 155mm howitzers (and 72 tow vehicles), laser-guided rocket systems`,
+      apc: `100s high mobility vehicles, 200 M113 APC`,
       atgm: `5500 Javelins`,
       helicoptors: `16 Mi-17s`,
       aa: ``,
       manpads: `1400 Stingers`,
       missiles: ``,
       radar: `17 counter-artillery, 4 coounter-mortar, 2 air surveillance`,
-      uav: `700+ Switchblade drones, 121 Phoenix Ghost drones, Puma drones, 
-            coastal defense drones`,
-      other: `electric jamming equipment, 75k sets body armor/helmets, demolition equipment, tactical secure communication systems,
-            night vision devices, thermal imagery systems, optics and laser rangefinders,
-            commerical satellite imagery services, explosive ordnance disposal protective
-            gear, chem/bio/radiological/nuclear protectice equipment, med supplies, field equipment and spare parts`
+      uav: `700+ Switchblade, 121 Phoenix Ghost, Puma drones, 
+            for coastal defense`,
+    },
+    note: `Amount includes $40 billion for lend-lease`,
+  },
+  {
+    c: 'United States (2)',
+    val: 44000,
+    asof: `2022-05-10`,
+    arms: {
+      other: `electric jamming equip, 75k sets body armor/helmets, demolition equip, 
+              secure communication systems, night vision, thermal and satellite imagery systems, 
+              optics/laser rangefinders, ordnance disposal protective gear, 
+              chem/bio/radiological/nuclear protective gear, med supplies, spare parts`
     },
     note: `Amount includes $40 billion for lend-lease`,
   },
 ]
+
+export default data;

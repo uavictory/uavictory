@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import 'vars';
 @import 'bayraktar';
 @import 'data';
-
-$ua-blue: #005BBB;
-$ua-yellow: #FFD500;
-$ru-blue: #0033A0;
-$ru-red: #DA291C;
-$ytview-width: 380px; //set in youtube-item component
-$ytview-height: $ytview-width * 9/16;
-
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -148,7 +141,7 @@ a.help-btn {
 .under-countdown-txt {
     font-family: 'Monserrat', 'Courier New', Courier, monospace;
     color: #9d3f2a; 
-    font-size: 50px;
+    font-size: 46px;
     font-weight: bold;
  }
 

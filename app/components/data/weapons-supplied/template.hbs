@@ -1,0 +1,14 @@
+<div>
+  Sources: 
+
+  <Link @url="https://www.forumarmstrade.org/ukrainearms.html" @txt="Forum on the Arms Trade" />
+  &nbsp;
+  <Link @url="https://www.defense.gov/News/Releases/Release/Article/3027295/fact-sheet-on-us-security-assistance-for-ukraine/" @txt="US Dept of Defense" />
+</div>
+<br/>
+<div class="weapons-cards">
+  {{#each this.countries as |data| }}
+    {{!-- glimmer comps don't seem like subdir names --}}
+    {{component "data/weapons-by-country" data=data}}
+  {{/each}}
+</div>

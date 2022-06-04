@@ -13,8 +13,9 @@ https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.htm
 */
 const items = [
     {
-        t: 'Weapons supplies to Ukraine',
+        t: 'Weapons to Ukraine',
         fa: 'jet-fighter',
+        component: 'data/weapons-supplied'
     },
     {
         t: 'Sanctions',
@@ -48,7 +49,7 @@ const items = [
     },
     {
         t: 'Weapons Deployment',
-        fa: 'fire-flame-simple',
+        file: 'Artillery-Gun-Silhouette_n8lzfHHLN.svg',
     },
     {
         t: 'Weapons Range',
