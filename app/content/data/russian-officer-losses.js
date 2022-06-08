@@ -1,4 +1,4 @@
 export const dataLink = {
-  url: 'https://pbs.twimg.com/media/FUa7L34WQAAQh2d?format=png',
-  updated: '2022-06-04'
+  url: 'https://pbs.twimg.com/media/FUplhtyWIAE55wB?format=png',
+  updated: '2022-06-07'
 }
