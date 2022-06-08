@@ -1,8 +1,18 @@
 <Countdown />
 <div class="under-countdown">
-    <span class="under-countdown-txt">
-        100+ DAYS
+    <span class="under-countdown-txt" {{on 'click' this.toggleWhyWin}}>
+        Why Ukraine will Win
     </span>
+
+    <div class="why-win {{this.hideBlurbClass}} ">
+        <div>
+            {{{this.whyBlurb}}}
+        </div>
+        <div class="close-why-win" {{on 'click' this.toggleWhyWin}}>
+            Close
+        </div>
+    </div>
+
 </div>
 
 <div class="todays-news">

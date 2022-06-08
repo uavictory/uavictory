@@ -138,7 +138,8 @@ a.help-btn {
 }
 
 .under-countdown {
-    height: 60px;
+    min-height: 60px;
+    padding: 6px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -147,15 +148,42 @@ a.help-btn {
 
 .under-countdown-txt {
     font-family: 'Monserrat', 'Courier New', Courier, monospace;
-    color: #9d3f2a; 
-    font-size: 46px;
+    color: $ua-blue;
+    font-size: 30px;
     font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
  }
 
 .under-countdown a {
     text-decoration: none;
     color: $ua-blue; 
     text-shadow:$ua-yellow;
+}
+
+.why-win.hidden {
+    max-height: 0;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.why-win {
+    @include col-flex-center;
+    text-align: left;
+    margin: 0.3rem 2rem;
+    transition: max-height 0.5s;
+    max-height: 500px;
+    // transition-duration: 2s;
+    // transition-property: height;
+}
+
+
+.close-why-win {
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .todays-news {
