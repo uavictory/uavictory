@@ -138,12 +138,10 @@ a.help-btn {
 }
 
 .under-countdown {
+    @include col-flex-center;
     min-height: 60px;
     padding: 6px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .under-countdown-txt {
@@ -169,10 +167,12 @@ a.help-btn {
 
 .why-win {
     @include col-flex-center;
+    font-size: large;
     text-align: left;
     margin: 0.3rem 2rem;
     transition: max-height 0.5s;
-    max-height: 500px;
+    max-height: 800px;
+    max-width: 700px;
     // transition-duration: 2s;
     // transition-property: height;
 }
