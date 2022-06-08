@@ -4,3 +4,16 @@ $ru-blue: #0033A0;
 $ru-red: #DA291C;
 $ytview-width: 380px; //set in youtube-item component
 $ytview-height: $ytview-width * 9/16;
+
+@mixin col-flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@mixin animation-elem($zIndex: 10) {
+    position: absolute;
+    display: inline-block;
+    z-index: $zIndex;
+}

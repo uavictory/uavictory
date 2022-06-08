@@ -1,16 +1,12 @@
 
+@import 'vars';
+
 .bayraktar-animation {
     width: 100%;
     position: absolute;
 }
 
 /* bayraktar */
-
-@mixin animation-elem($zIndex: 10) {
-    position: absolute;
-    display: inline-block;
-    z-index: $zIndex;
-}
 
 .bayraktar {
     @include animation-elem;
