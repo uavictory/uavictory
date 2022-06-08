@@ -2,16 +2,16 @@
  */
 const latestNews = [
   {
-    t: 'Ukrainians and International Legion Counterattacking in Severodonetsk',
-    url: 'https://odessa-journal.com/russian-units-withdraw-from-severodonetsk-due-to-the-international-legion-counter-offensive/',
+    t: 'Fierce back and forth continues in Severodonetsk',
+    url: 'https://twitter.com/mhmck/status/1534392957499060225',
   },
   {
-    t: `Latest ISW Report: Shoigu says attack, but Russians troops on defensive`,
+    t: 'June 8 Russian loss estimates: +140 troops, +3 tanks, +6 MLRS, +6 UAV...',
+    url: 'https://twitter.com/KyivIndependent/status/1534433778885705730',
+  },
+  {
+    t: `Latest ISW Report: No gain lots pains for Russia, which censors war loss reporting`,
     url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
-  },
-  {
-    t: 'June 4 Russian loss estimates: +100 troops, +9 tanks, +13 APV, +5 UAV...',
-    url: 'https://twitter.com/KyivIndependent/status/1533011504265560064',
   },
   {
     t: "Türkiye is awesome! Says Lithuanians can have Ukrainian-bound Bayraktar for free!",
