@@ -1,18 +1,29 @@
 
 @import 'vars';
 
+$bay-top: 20px;
+$b3-top: $bay-top - 500px;
+$tank-top: $bay-top + 200px;
+$lith-top: $bay-top + 15px;
+$turkey-top: $lith-top - 10px;
+$msg-top: $lith-top + 40px;
+$missile-top: $bay-top + 25px;
+$missile-fire-top: $tank-top + 15px;
+$explosion-top: $missile-fire-top;
+$explosion-e1-top: $explosion-top - 80px;
+$thanks-top: $bay-top + 30px;
+$thanks-t-top: $thanks-top + 80px;
+
 .bayraktar-animation {
     width: 100%;
     position: absolute;
 }
 
-/* bayraktar */
-
 .bayraktar {
     @include animation-elem;
     height: 55px;
     width: 60px;
-    top: -75px;
+    top: $bay-top;
     left: 25%;
 }
 
@@ -24,7 +35,7 @@
 .b3 {
     transition-duration: 1s;
     left: 90%;
-    top: -500px;
+    top: $b3-top;
 }
 
 .invis { opacity: 0; }
@@ -35,7 +46,7 @@
     display: inline-block;
     height: 60px;
     width: 60px;
-    top: 160px;
+    top: $tank-top; 
     left: -100px;
 }
 
@@ -52,20 +63,20 @@
 .lith {
     @include animation-elem;
     height: 40px;
-    top: -60px;
+    top: $lith-top;
     left: 80px;
 }
 
 .turkey {
     @include animation-elem;
     height: 50px;
-    top: -70px;
+    top: $turkey-top;
     left: 220px;
 }
 
 .msg1 {
     @include animation-elem;
-    top: -18px;
+    top: $msg-top;
     left: 65px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -77,7 +88,7 @@
 
 .msg2 {
     @include animation-elem;
-    top: -18px;
+    top: $msg-top;
     left: 228px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -89,7 +100,7 @@
 
 .msg3 {
     @include animation-elem;
-    top: -18px;
+    top: $msg-top;
     left: 150px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -102,7 +113,7 @@
 .missile {
     @include animation-elem(9);
     height: 14px;
-    top: -50px;
+    top: $missile-top;
     left: 71%;
     transform: rotate(45deg);
 }
@@ -110,13 +121,13 @@
 .missile.fire {
     transition-duration: 240ms;
     opacity: 1.0;
-    top: 190px;
+    top: $missile-fire-top;
     left: 88%;
 }
 
 .explosion {
     @include animation-elem(11);
-    top: 190px;
+    top: $explosion-top;
     left: 89%;
     height: 0;
 }
@@ -124,7 +135,7 @@
 .explosion.e1 {
     transition-duration: 200ms;
     height: 160px;
-    top: 110px;
+    top: $explosion-e1-top;
     left: 79%;
 }
 
@@ -154,7 +165,7 @@
 
 .thanks {
     @include animation-elem(11);
-    top: -40px;
+    top: $thanks-top;
     right: 4%;
     color: white;
     background-image: linear-gradient(180deg, #FFB81C, #046A38, #DA291C);
@@ -167,7 +178,7 @@
 
 .thanks-t {
     @include animation-elem(110);
-    top: 40px;
+    top: $thanks-t-top;
     right: 4%;
     color: white;
     background-color: #E30A17;

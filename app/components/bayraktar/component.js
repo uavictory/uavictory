@@ -34,12 +34,12 @@ export default class Bayraktar extends Component {
     await sleep(700)
     this.tuClass = "turkey appear1"
     await sleep(800)
-    this.msg2Class = "msg2 appear2"
+    this.msg2Class = "msg2 appear1"
     await sleep(2000)
     this.msg1Class = 'msg1 disappear-500ms';
     this.msg2Class = 'msg2 disappear-500ms';
     await sleep(400)
-    this.msg3Class = "msg3 appear2"
+    this.msg3Class = "msg3 appear1"
     await sleep(1600)
     this.lClass = 'lith disappear1';
     await sleep(400);
