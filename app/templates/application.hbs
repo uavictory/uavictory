@@ -13,7 +13,8 @@
 <div class="main-menu">
     <LinkTo @route='index'>Home</LinkTo>
     <LinkTo @route='feed'>Spirit</LinkTo>
-    <LinkTo @route='data'>Data</LinkTo>
+    <LinkTo @route="data" @query={{hash topic="weapons-supplied"}}>Data</LinkTo>
+    {{!-- <LinkTo @route='data'>Data</LinkTo> --}}
     <LinkTo @route='heroes'>Heroes</LinkTo>
     <LinkTo @route='culture'>Culture</LinkTo>
     <LinkTo @route='visitors'>Visitas</LinkTo>

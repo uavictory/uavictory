@@ -1,0 +1,11 @@
+{{#each this.weapons as |category|}}
+  {{category.label}}
+
+  <ul>
+    {{#each category.weapons as |weapon|}}
+      <li>
+        {{component "data/ranged-weapon" weapon=weapon }}
+      </li>
+    {{/each}}
+  </ul>
+{{/each}}

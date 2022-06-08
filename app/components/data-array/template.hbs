@@ -1,6 +1,6 @@
 {{#each this.topics as |topic| }}
-    <div class="data-menu-card {{if (eq topic this.currentTopic) 'selected' ''}} {{if topic.component '' 'data-todo'}}" 
-    {{on "click" (fn this.setCurrentTopic topic)}}
+    <div class="data-menu-card {{if (eq topic @topic) 'selected' ''}} {{if topic.tbd 'data-todo'}}" 
+    {{on "click" (fn this.transitionTopic topic)}}
     >
         <div class="data-menu-card-title">{{topic.t}}</div> 
         <div>
@@ -12,13 +12,15 @@
 <div class="data-content">
 
   <h1>
-    {{this.currentTopic.t}}
+    {{@topic.t}}
   </h1>
 
 {{!-- {{component myComponentName param2=param2 param3=param3 ...}} --}}
-  {{#if this.component}}
-    {{component this.component }}
-  {{else}}
+  {{#if @topic.tbd}}
     <div style="margin-top:2rem;font-size:4rem;font-style:italic;color:blue">Coming soon!</div>
+  {{else}}
+    {{#if this.component}}
+      {{component this.component }}
+    {{/if}}
   {{/if}}
 </div>
