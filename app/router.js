@@ -15,6 +15,11 @@ Router.map(function () {
   this.route('help');
   this.route('russia-resources');
 
+  this.route('most', function () {
+    this.route('index', { path: '/' });
+    this.route('songs');
+    this.route('art');
+  });
   this.route('culture', function () {
     this.route('songs');
     this.route('art');
