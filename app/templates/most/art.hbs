@@ -1,0 +1,11 @@
+{{page-title "Art"}}
+
+<p style="text-align:center; font-size: 16px; margin-top: 30px;">
+    More at our Instagram page
+    <Link @url="https://www.instagram.com/ukrainianartofwar/" @txt="@ukrainianartofwar" />
+</p>
+<div class="art-cards">
+    {{#each this.model as |image| }}
+        <ArtImage @image={{image}}/>
+    {{/each}}
+</div>
