@@ -8,8 +8,9 @@ export const armsTypes = [
   {key: 'tanks', label: 'Tanks'},
   {key: 'apv', label: 'APV'},
   {key: 'atgm', label: 'ATGM'},
-  {key: 'smallArms', label: 'Small arms'},
   {key: 'vehicles', label: 'Vehicles'},
+  {key: 'smallArms', label: 'Small arms'},
+  {key: 'ammo', label: 'Ammunition'},
   {key: 'other', label: 'Other'},
 ];
 
@@ -48,7 +49,7 @@ const data = [
     val: 486,
     arms: {
       smallArms: `machine guns, pistols, carbines, sniper rifles, 7500 hand grenades`,
-      ammunition: `20,000 155mm artillery shells, `,
+      ammo: `20,000 155mm artillery shells, `,
       atgm: ``,
       manpad: ``,
       tanks: ``,
@@ -78,7 +79,7 @@ const data = [
     arms: {
       smallArms: `3020 light machine guns, 7,132 assault rifles, 70 sub-machineguns, sniper rifles`,
       mortars: `4000`,
-      ammunition: `1.1 mil bullets,`,
+      ammo: `1.1 mil bullets,`,
       atgm: ``,
       manpad: `160 Manpads (probably Strela-2)`,
       tanks: `T-72s`,
@@ -126,7 +127,7 @@ const data = [
     val: 0,
     arms: {
       smallArms: `2500 assault rifles`,
-      ammunition: `150k cartridges`,
+      ammo: `150k cartridges`,
       atgm: `1500 single-shot ATGM`,
       other: `combat rations`,
     },
@@ -155,7 +156,7 @@ const data = [
     val: 0,
     arms: {
       smallArms: `Kalashnikov rifles`,
-      ammunition: true,
+      ammo: true,
       missiles: `portable rocket launchers`
     },
   },
@@ -196,7 +197,7 @@ const data = [
     val: 0,
     arms: {
       manpads: `Stringers`,
-      ammunition: true,
+      ammo: true,
       uav: `crowd-sourced Bayraktar!`
     },
   },
@@ -214,7 +215,7 @@ const data = [
     val: 0,
     arms: {
       smallArms: `100 sniper rifles, 400 RPG`,
-      ammunition: `30k rounds`,
+      ammo: `30k rounds`,
       missiles: `200 Stingers`,
       other: `3k helmets, 2k fragmentation vests/body armor`,
     },
@@ -224,6 +225,7 @@ const data = [
     val: 0,
     arms: {
       atgm: `4000`,
+      artillery: '22 M109 self-propelled artillery units',
       aa: `100 Mistral air defense missiles`,
       other: `helmets, bulletproof vests, other protection`,
     },
@@ -235,7 +237,7 @@ const data = [
       aircraft: `MiG-29 spare parts and armaments`,
       smallArms: ``,
       mortars: `light mortars`,
-      ammunition: `thousands of rounds, artillery sheets`,
+      ammo: `thousands of rounds, artillery sheets`,
       atgm: ``,
       manpad: `Piorin systems and munitions`,
       tanks: `200+ T-72s`,
@@ -256,7 +258,7 @@ const data = [
     val: 0,
     arms: {
       smallArms: `grenades, G3 automatic rifles`,
-      ammunition: true,
+      ammo: true,
       other: `other non-lethal`
     },
   },
@@ -264,7 +266,7 @@ const data = [
     c: 'romania',
     val: 3,
     arms: {
-      ammunition: true,
+      ammo: true,
       other: `bulletproof vests, helmets, medical supplies`
     },
   },
@@ -278,7 +280,7 @@ const data = [
     c: 'slovenia',
     arms: {
       smallArms: `Kalashnikovs`,
-      ammunition: true,
+      ammo: true,
       other: `helmets`,
     },
   },
@@ -286,7 +288,7 @@ const data = [
     c: 'spain',
     arms: {
       smallArms: `light machine guns`,
-      ammunition: `700k rifle/machine gun rounds`,
+      ammo: `700k rifle/machine gun rounds`,
       atgm: `1370 anti-tank grenade launchers`,
       other: `medical supplies, defensive equipment`,
     },
@@ -316,21 +318,21 @@ const data = [
     },
   },
   {
-    /* source: https://www.defense.gov/News/Releases/Release/Article/3027295/fact-sheet-on-us-security-assistance-for-ukraine/ */
+    /* source: https://www.defense.gov/News/Releases/Release/Article/3049483/fact-sheet-on-us-security-assistance-to-ukraine/*/
     c: 'United States',
     val: 44000,
-    asof: `2022-05-10`,
+    asof: `2022-06-01`,
     arms: {
       smallArms: `7000+ small arms, M18A1 Claymore mines`,
-      ammunition: `200k 155mm artillery rounds, 50mil rounds, C-4 explosives`,
-      artillery: `90 155mm howitzers (and 72 tow vehicles), laser-guided rocket systems`,
+      artillery: `108 155mm howitzers + 90 tow vehicles, laser-guided rocket systems`,
       apc: `100s high mobility vehicles, 200 M113 APC`,
-      atgm: `5500 Javelins`,
-      helicoptors: `16 Mi-17s`,
+      atgm: `6500 Javelins, 20k other`,
+      helicoptors: `20 Mi-17s`,
       aa: ``,
       manpads: `1400 Stingers`,
+      mlrs: 'Himars',
       missiles: ``,
-      radar: `17 counter-artillery, 4 coounter-mortar, 2 air surveillance`,
+      radar: `22 counter-artillery, 4 coounter-mortar, 4 air surveillance`,
       uav: `700+ Switchblade, 121 Phoenix Ghost, Puma drones, 
             for coastal defense`,
     },
@@ -341,6 +343,7 @@ const data = [
     val: 44000,
     asof: `2022-05-10`,
     arms: {
+      ammo: `220k 155mm artillery rounds, 50mil rounds, C-4 explosives`,
       other: `electric jamming equip, 75k sets body armor/helmets, demolition equip, 
               secure communication systems, night vision, thermal and satellite imagery systems, 
               optics/laser rangefinders, ordnance disposal protective gear, 
