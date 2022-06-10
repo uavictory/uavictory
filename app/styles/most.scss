@@ -1,0 +1,25 @@
+@import 'vars';
+
+
+.most-items {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 92%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1.5rem;
+  }
+
+.most-item {
+  width: $ytview-width;
+
+  img {
+    width: 100%;
+  }
+}
+
+.text-card {
+    padding: 0 0 1rem 0;
+    max-height: 280px;
+    max-width: 95%;
+}

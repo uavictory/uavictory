@@ -1,7 +1,7 @@
 {{page-title "Most"}}
-<h3>Most</h3>
-<div class="song-cards">
+
+<div class="most-items">
     {{#each this.model.items as |item| }}
-        <VariableItem @item={{item}} />
+        <VariableItem @item={{item}} @classes="most-item" />
     {{/each}}
 </div>
