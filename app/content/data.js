@@ -10,6 +10,9 @@ https://www.statista.com/topics/9087/russia-ukraine-war-2022/#dossierKeyfigures
 russian losses
 https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html
 - can scrape
+
+russian losses in $$terms
+https://twitter.com/bip_in_ua
 */
 const items = [
     {
@@ -55,6 +58,9 @@ const items = [
         t: 'Weapons Range',
         file: 'missile_7ln1SxYjQ.png',
     },
+    // {
+    //     t: 'Foreign Fighting Contingents',
+    //     file: 'missile_7ln1SxYjQ.png',
+    // }
 ];
-
 export default items;
