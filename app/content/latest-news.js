@@ -2,15 +2,15 @@
  */
 const latestNews = [
   {
-    t: 'Fierce back and forth continues in Severodonetsk',
-    url: 'https://twitter.com/mhmck/status/1534392957499060225',
+    t: 'Reports of Wagner base getting wiped out in Luhansk',
+    url: 'https://twitter.com/serhey_hayday/status/1535180674654691328',
   },
   {
-    t: 'June 8 Russian loss estimates: +140 troops, +3 tanks, +6 MLRS, +6 UAV...',
-    url: 'https://twitter.com/KyivIndependent/status/1534433778885705730',
+    t: 'June 10 Russian loss estimates: +200 troops, +11 tanks, +9 MLRS, +10 UAV...',
+    url: 'https://twitter.com/mhmck/status/1535232107424931843',
   },
   {
-    t: `Latest ISW Report: No gain lots pains for Russia, which censors war loss reporting`,
+    t: `Latest ISW Report: Little Russian military progress, trying to take over civil admin in occupied areas`,
     url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
   },
   {
@@ -24,6 +24,15 @@ const latestNews = [
 ];
 
 const pastNews = [
+  {
+    date: '2022-06-08',
+    items: [
+      {
+        t: 'Fierce back and forth continues in Severodonetsk',
+        url: 'https://twitter.com/mhmck/status/1534392957499060225',
+      },
+    ]
+  },
   {
     date: '2022-05-31',
     items: [
@@ -102,10 +111,6 @@ const pastNews = [
         t: `Biden signs $40 billion Ukraine aid package into law`,
         url: 'https://thehill.com/news/administration/3495301-biden-signs-40b-ukraine-aid-package-into-law/',
       },
-      {
-        t: ``,
-        url: ``,
-      }
     ],
   },
   {
