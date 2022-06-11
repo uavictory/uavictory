@@ -12,6 +12,22 @@
  */
 const visitors = [
    { 
+      p: 'Ben Wallace',
+      i: 'ben_wallace_Mfq01E12n.png',
+      d: '2022-05-31',
+      u: ``,
+      t: `
+      <p>
+        UK Defense Minister Ben Wallace shows up in Kyiv.
+      </p>
+      <p>  
+        Do the Brits just want to get away from the London
+        weather, or is it they just can't abide a continental tyrant
+        whether Hitler, Napoleon, Louis XIV, Philip II...
+      </p>
+      `
+   },
+   { 
       p: 'Zuzana Čaputová',
       i: 'caputova__IDS6YFwM.jpeg',
       d: '2022-05-31',
