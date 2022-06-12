@@ -1,5 +1,6 @@
 /*
   Baddest Ambush Footage
+  italian to colleague 
   15 yo boy
   Best Stamp
   Best Bayraktar Rendition
@@ -143,7 +144,7 @@ const items = [
   {
     t: 'Most Influential Cat',
     type: 'img',
-    key: 'feed/stepan_wins_lcxxO5wvj.jpeg',
+    key: 'most/stepan_cvxH1Aw0G.png',
     txt: `
         <p>
           Kharkiv cat Stepan has over a million social media followers. He has
@@ -155,6 +156,27 @@ const items = [
           Not bad for a cat.
         </p>
         `,
+  },
+  {
+    t: 'Best Ambush captured on film',
+    type: 'yt',
+    key: 'IfRcmJTAouM',
+    txt: `
+      <p>
+        Among the many brave exploits of ZSU soldiers this one stands out, both
+        for bravery and the stark contrasts of these two forces.
+      </p>
+      <p>
+        Russian tanks roll down the highway muzzles forward like on parade with
+        zero scouting on their flanks. Once attacked, soldier and vehicles scurry
+        away like a bunch of frigtened rats.
+      </p>
+      <p>
+        Compare that with the Ukrainian ambush troops, who conceal themselves 
+        for the perfect shot, and are undaunted by the odds against them. We
+        hope they made it through.
+      </p>
+      `
   },
   {
     t: 'Clearest Signs',
@@ -180,7 +202,7 @@ const items = [
   {
     t: 'Biggest Clowns',
     type: 'yt',
-    key: '9Xoo_Hfx5jo',
+    key: 'fAjobwvchRg',
     txt: `
         <p>
           Reportedly some 'elite' members of Chechen clown-master Ramzan Kadyrov's forces were
@@ -195,6 +217,71 @@ const items = [
         </p>
         `,
   },
+  {
+    t: 'Maximum Likelihood Estimator for War Clowns',
+    type: 'img',
+    key: 'most/chechen_commander_killed_XW24ptXit.jpeg',
+    txt: `
+      <p>
+        War really not a good place to clown around. Here a Chechen commander finds
+        this out just as he's bragging of his exploits.
+      </p>
+      <p>
+        <a href='https://www.express.co.uk/news/world/1603609/russia-news-ukraine-war-chechen-commander-killed-tiktok-vladimir-putin' target='_blank' rel='noopener noreferrer'>
+          Full video
+        </a> 
+      </p>
+    `
+  },
+  {
+    t: 'Least Minced Words',
+    type: 'img',
+    key: 'most/that_palace_is_full_of_shit_tbfvte-Qk.png',
+    txt: `
+      <p>
+        Italian journalist Alessandro Sallusti lays into colleagues who met Putin 
+        at Kremlin and spouted Russian proganganda: 
+      </p>
+     <p>
+      "The palace behind you (Kremlin) should remind our viewers is where the worst
+      crimes against humanity of the 20th and 21th centuries were organized. That palace
+      is full of shit." 
+     </p> 
+     <p>
+      <a href='https://twitter.com/visegrad24/status/1534205108510199808'>Full video</a>
+     </p>
+    `
+  },
+  {
+    t: 'Highest (altitude) Supporter of Ukraine',
+    type: 'img',
+    key: 'most/russian-climber-protest_Gw_TLJ3IL.webp',
+    txt: `
+      <p>
+        Russian mountaineer and blogger, Katya Lipka, unfurled the Ukrainian flag on
+        top of Mount Everest in protest against the ongoing war between her country and Ukraine.
+      </p>
+      <p>
+        Thank you Katya, and in the horror of all this, let us remember those brave Russians
+        who are standing with us to end the invasion, the killing, the tyranny.
+      </p>
+    `
+  },
+
+  {
+    t: 'Most likely place to find Russian looters',
+    type: 'yt',
+    key: '-Q36fkZADlI',
+    txt: `
+      <p>
+        Belarusian post office of course.
+      </p>  
+      <p>
+        Rumor has it the stolen goods were misdirected along the way. Cold
+        comfort, but small justice. Hopefully stronger justice awaits.
+      </p>
+    `
+  }
 ];
 
 export default items;
