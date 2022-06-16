@@ -9,6 +9,21 @@
 
 const items = [
   {
+    t: `Best Dressed`,
+    type: 'img',
+    key: 'most/best-dressed_CPV_fTQ5D.jpeg',
+    txt: `
+        <p>
+          Which outfits say we have to find a way to not hurt anyone's feelings
+          and observe social niceties... 
+        </p>
+        <p>  
+          ...and which says I'm devoting 100% of my soul to save my people 
+          from a brutal dictator who has no respect for human anything.
+        </p>
+        `,
+  },
+  {
     t: `Our fondest wish for all children of parent's defending Ukraine`,
     type: 'img',
     key: 'most/son_greets_father_DGa7v91bU5.png',
