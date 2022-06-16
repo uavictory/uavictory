@@ -9,6 +9,24 @@
 
 const items = [
   {
+    t: `Our fondest wish for all children of parent's defending Ukraine`,
+    type: 'img',
+    key: 'most/son_greets_father_DGa7v91bU5.png',
+    txt: `
+        <p>
+          Every day, hundreds of Ukrainian childrens get reunions like this
+          taken away from them. 
+        </p>
+        <p>  
+          Supply Ukraine with the weapons it needs so it's fathers
+          and mothers can live.
+
+          <a href='https://twitter.com/CanadianUkrain1/status/1537310583569129473' target='_blank' rel='noopener noreferrer'>Full video</a>
+
+        </p>
+        `,
+  },
+  {
     t: 'Most Badass Old Lady in Ukraine',
     type: 'yt',
     key: 'L17Bi7zBJHI',
