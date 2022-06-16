@@ -2,15 +2,15 @@
  */
 const latestNews = [
   {
-    t: 'Reports of Wagner base getting wiped out in Luhansk',
-    url: 'https://twitter.com/serhey_hayday/status/1535180674654691328',
+    t: `More Western weapons to Ukraine -- Austin warns of 'pivotal moment'`,
+    url: 'https://thehill.com/policy/defense/3525102-austin-warns-of-pivotal-moment-in-ukraine-war-urges-allies-to-help/',
   },
   {
-    t: 'June 10 Russian loss estimates: +200 troops, +11 tanks, +9 MLRS, +10 UAV...',
-    url: 'https://twitter.com/mhmck/status/1535232107424931843',
+    t: 'June 16 Russian loss estimates: +200 troops, +9 tanks, +3 MLRS, +0 UAV...',
+    url: 'https://twitter.com/KyivIndependent/status/1537352541658304513',
   },
   {
-    t: `Latest ISW Report: Little Russian military progress, trying to take over civil admin in occupied areas`,
+    t: `Latest ISW Report: Russians still can't take Severodonetsk, ZSU pressing in South`,
     url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
   },
   {
@@ -24,6 +24,15 @@ const latestNews = [
 ];
 
 const pastNews = [
+  {
+    date: '2022-06-10',
+    items: [
+      {
+        t: 'Reports of Wagner base getting wiped out in Luhansk',
+        url: 'https://twitter.com/serhey_hayday/status/1535180674654691328',
+      },
+    ]
+  },
   {
     date: '2022-06-08',
     items: [
