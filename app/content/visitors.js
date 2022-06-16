@@ -12,6 +12,25 @@
  */
 const visitors = [
    { 
+      p: 'Iohannis, Scholz, Macron, and Draghi',
+      i: 'sholz2_3rQLjlrYF.jpeg',
+      d: '2022-06-16',
+      u: ``,
+      t: `
+      <p>
+        Romanian President Klaus Iohannis joins leaders on France, Germany, and Italy, on
+        their first visit to Kyiv since war began. Hopefully, this sends a clearer message
+        to Putin than Macron's constant stammering about 'negotiations'.  France has been
+        fairly good about weapons, but hopefully these leaders will realize Ukraine needs
+        ammunition, not negotiations. 
+      </p>
+      <p>  
+        Incidentally, whose outfit screams sorry I'm 100% focused on winning a war
+        so don't really have time for the polite niceties a suit?  Badass.
+      </p>
+      `
+   },
+   { 
       p: 'Ben Wallace',
       i: 'ben_wallace_Mfq01E12n.png',
       d: '2022-05-31',
