@@ -2,12 +2,16 @@
  */
 const latestNews = [
   {
-    t: `More Western weapons to Ukraine -- Austin warns of 'pivotal moment'`,
-    url: 'https://thehill.com/policy/defense/3525102-austin-warns-of-pivotal-moment-in-ukraine-war-urges-allies-to-help/',
+    t: 'European Commission urges EU Candidate Status for both Ukraine and Moldova',
+    url: 'https://www.politico.eu/article/european-commission-backs-eu-candidate-status-for-ukraine-moldova/',
   },
   {
-    t: 'June 16 Russian loss estimates: +200 troops, +9 tanks, +3 MLRS, +0 UAV...',
-    url: 'https://twitter.com/KyivIndependent/status/1537352541658304513',
+    t: 'June 17 Russian loss estimates: +200 troops, +7 tanks, +18 MLRS, 2 planes and a helicopter!',
+    url: 'https://twitter.com/KyivIndependent/status/1537744130817802240',
+  },
+  {
+    t: `More Western weapons to Ukraine -- Austin warns of 'pivotal moment'`,
+    url: 'https://thehill.com/policy/defense/3525102-austin-warns-of-pivotal-moment-in-ukraine-war-urges-allies-to-help/',
   },
   {
     t: `Latest ISW Report: Russians still can't take Severodonetsk, ZSU pressing in South`,
