@@ -9,6 +9,24 @@
 
 const items = [
   {
+    t: `Biggest Clown (Indivdual)`,
+    type: 'img',
+    key: 'most/lukashenko_poland_43XEfoVbc.png',
+    txt: `
+        <p>
+          Medvedev, Zakharova, Skabeyeva, Peshkov, Lavrov...this is a VERY competitive 
+          category, but two contestants really stand out -- Kadyrov and Lukashenko. 
+          For today, we're going with Lukashenko for suggesting
+          Ukraine would be interested in...Belarusian protection from Poland.
+        </p>
+        <p>
+          Given Kadyrov's antics, this award could change at any time.
+          In meantime, he can take satisfaction in fact that his Tik-Tok 
+          battalion are reigning champs in the Ensemble Clown category.
+        </p>
+        `,
+  },
+  {
     t: `Best Dressed`,
     type: 'img',
     key: 'most/best-dressed_CPV_fTQ5D.jpeg',
