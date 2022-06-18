@@ -11,6 +11,20 @@
 
  */
 const visitors = [
+  {
+    p: `Boris Johnson`,
+    i: 'bojo_back_HkMWTBMOB.jpeg',
+    d: '2022-06-17',
+    u: ``,
+    t: `
+      <p>Heee's back!</p>
+      <p>
+        Yeah, in Kyiv Boris doesn't have to worry about the no-confidence votes he 
+        faces in London, but we suspect Boris Johnson truly appreciates the heroic, 
+        historic nature of Ukraine's struggle, and is gonna damn well make sure he 
+        does whatever he can to help it secure it's freedom. 
+    `,
+  },
    { 
       p: 'Iohannis, Scholz, Macron, and Draghi',
       i: 'sholz2_3rQLjlrYF.jpeg',
