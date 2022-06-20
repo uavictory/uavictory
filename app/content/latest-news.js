@@ -6,8 +6,8 @@ const latestNews = [
     url: 'https://www.politico.eu/article/european-commission-backs-eu-candidate-status-for-ukraine-moldova/',
   },
   {
-    t: 'June 17 Russian loss estimates: +200 troops, +7 tanks, +18 APV, 2 planes and a helicopter!',
-    url: 'https://twitter.com/KyivIndependent/status/1537744130817802240',
+    t: 'June 20 Russian loss estimates: +200 troops, +9 tanks, +11 APV, 3 MLRS!',
+    url: 'https://twitter.com/KyivIndependent/status/1538780619433459712',
   },
   {
     t: `More Western weapons to Ukraine -- Austin warns of 'pivotal moment'`,
