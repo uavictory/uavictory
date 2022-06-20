@@ -11,6 +11,25 @@
 
  */
 const visitors = [
+  
+  {
+    p: 'Ben Stiller',
+    i: 'stiller-kyiv_8Mk4X1EX2.jpeg',
+    d: '2022-06-20',
+    u: 'url',
+    t: `
+      <p>
+        Actor and UN Goodwill ambassador Ben Stiller drops by Kyiv to
+        show his support. Later in the day, he met with 
+        <a href='https://twitter.com/ukraine_world/status/1538944733627793409' target='_blank' rel='noopener noreferrer'>
+          President Zelensky
+        </a>.
+      </p>
+      <p>
+        Nice to finally see someone who appreciates the dress code :-)
+      </p>
+    `
+  },
   {
     p: `Boris Johnson`,
     i: 'bojo_back_HkMWTBMOB.jpeg',
