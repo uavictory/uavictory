@@ -56,6 +56,12 @@ const songs = [
         `,
   },
   {
+    t: "Good Evening, We're from Ukraine",
+    a: "PROBASS ∆ HARDI",
+    key: "8HSbejS7gOc",
+    txt: "A simple song with a simple, clear message"
+  },
+  {
     t: 'Hug me - Обійми (Obiymy)',
     a: 'Okean Elzy',
     key: 'tj7bgjirNfQ',
