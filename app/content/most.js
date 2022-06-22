@@ -6,8 +6,31 @@
   Best Bayraktar Rendition
   most no-nonsense military spokesmen
 */
-
+//https://youtu.be/gy3LOs2UPT4
 const items = [
+  {
+    t: 'Best Metaphor to come out of Dagestan in...as long as we can remember',
+    type: 'img',
+    key: 'most/zsheep_whulKIb0q.png',
+    txt: `
+      <p>
+        Ok we confess -- we're not that expert on Dagestan, so if the region
+        is actually a crucible of wonderful metaphors, we'll re-open this
+        for consideration.
+      </p>
+      <p>
+        But we do think this is, unfortunately, very apt right now. How little Z sheep, 
+        particulary those from poor Russian regions, get sent to the, er, you know...
+        ya' know? We sincerely hope this metaphor goes from best to most irrelevant as
+        quickly as possible.
+      <p>
+        <a href='https://twitter.com/nexta_tv/status/1539474319486685185' target='_blank' rel='noopener noreferrer'>
+          Full video
+        </a>
+      
+      </p>
+    `
+  }, 
   {
     t: `Biggest Clown (Indivdual)`,
     type: 'img',
