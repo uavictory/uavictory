@@ -2,8 +2,8 @@
  */
 const latestNews = [
   {
-    t: 'European Commission urges EU Candidate Status for both Ukraine and Moldova',
-    url: 'https://www.politico.eu/article/european-commission-backs-eu-candidate-status-for-ukraine-moldova/',
+    t: 'EU Candidate Status for Ukraine, Moldova!',
+    url: 'https://www.cnn.com/2022/06/23/europe/eu-approves-ukraine-candidateship-intl/index.html',
   },
   {
     t: 'June 20 Russian loss estimates: +200 troops, +9 tanks, +11 APV, 3 MLRS!',
@@ -28,6 +28,15 @@ const latestNews = [
 ];
 
 const pastNews = [
+  {
+    date: '2022-06-10',
+    items: [
+      {
+        t: 'European Commission urges EU Candidate Status for both Ukraine and Moldova',
+        url: 'https://www.politico.eu/article/european-commission-backs-eu-candidate-status-for-ukraine-moldova/',
+      },
+    ]
+  },
   {
     date: '2022-06-10',
     items: [
