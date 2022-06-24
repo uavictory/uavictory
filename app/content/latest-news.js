@@ -2,12 +2,16 @@
  */
 const latestNews = [
   {
+    t: 'BREAKING: Unconfirmed reports ZSU troops entering occupied Kherson',
+    url: 'https://twitter.com/u24_news/status/1540312602697416707',
+  },
+  {
     t: 'EU Candidate Status for Ukraine, Moldova!',
     url: 'https://www.cnn.com/2022/06/23/europe/eu-approves-ukraine-candidateship-intl/index.html',
   },
   {
-    t: 'June 20 Russian loss estimates: +200 troops, +9 tanks, +11 APV, 3 MLRS!',
-    url: 'https://twitter.com/KyivIndependent/status/1538780619433459712',
+    t: 'June 24 Russian loss estimates: +100 troops, +3 tanks, +5 APV, 3 MLRS',
+    url: 'https://twitter.com/KyivIndependent/status/1540223537784520706',
   },
   {
     t: `More Western weapons to Ukraine -- Austin warns of 'pivotal moment'`,
