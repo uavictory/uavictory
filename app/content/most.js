@@ -9,6 +9,25 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: 'Holiest of Water',
+    type: 'yt',
+    key: '03SiEa_xxbE',
+    txt: `
+      <p>
+        Russian Orthodox Church Patriarch Kirill, otherwise known as Putin's 
+        patriach of propaganda, has repeatedly blessed his master's Ukraine 
+        invasion. He was consecrating a church in the Novorossiysk by the Black 
+        Sea when he slipped on the marble floor.
+      </p>
+      <p>
+        Perhaps the water on the floor really was holy, and couldn't bear the
+        weight of Kirill's sins. He laughed it off, but if he really does believe
+        in the divine, he should consider whether someone is trying to 
+        tell him something.
+      </p>
+    `
+  },
+  {
     t: 'Best Metaphor to come out of Dagestan in...as long as we can remember',
     type: 'img',
     key: 'most/zsheep_whulKIb0q.png',
