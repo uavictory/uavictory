@@ -2,16 +2,16 @@
  */
 const latestNews = [
   {
-    t: 'BREAKING: Unconfirmed reports ZSU troops entering occupied Kherson',
-    url: 'https://twitter.com/u24_news/status/1540312602697416707',
+    t: 'June 27 Russian loss estimates: +150 troops, +20 tanks, +28 APV, 7 artillery: must have been a special on APV!',
+    url: 'https://twitter.com/KyivIndependent/status/1541318913392361472',
+  },
+  {
+    t: "Ukrainians raise money for 4 new Bayraktar (we'll have a new animation soon)",
+    url: 'https://mil.in.ua/en/news/in-three-days-ukrainians-raised-600-million-uah-to-purchase-bayraktar-tb2/',
   },
   {
     t: 'EU Candidate Status for Ukraine, Moldova!',
     url: 'https://www.cnn.com/2022/06/23/europe/eu-approves-ukraine-candidateship-intl/index.html',
-  },
-  {
-    t: 'June 24 Russian loss estimates: +100 troops, +3 tanks, +5 APV, 3 MLRS',
-    url: 'https://twitter.com/KyivIndependent/status/1540223537784520706',
   },
   {
     t: `More Western weapons to Ukraine -- Austin warns of 'pivotal moment'`,
@@ -20,14 +20,6 @@ const latestNews = [
   {
     t: `Latest ISW Report: Russians still can't take Severodonetsk, ZSU pressing in South`,
     url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
-  },
-  {
-    t: "Türkiye is awesome! Says Lithuanians can have Ukrainian-bound Bayraktar for free!",
-    url: 'https://www.aa.com.tr/en/economy/turkish-defense-firm-to-send-bayraktar-drone-to-lithuania-for-free/2604422',
-  },
-  {
-    t: "Lithuania is awesome! Citizens crowd-source 5 mil Eur to buy Ukraine a Bayraktar!",
-    url: 'https://www.bloomberg.com/news/articles/2022-05-28/lithuanians-raise-5-4-million-to-buy-combat-drone-for-ukraine',
   },
 ];
 
