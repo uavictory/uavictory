@@ -9,6 +9,23 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: "Diplomacy at it's Finest",
+    type: 'img',
+    key: 'most/diplomacy_MUgZuwUfY.png',
+    txt: `
+      <p>
+        In response to Western governments changing street names to Ukrainian places
+        and heroes, the Russian government changed the name of the Moscow street where
+        the US embassy is located to "Donetsk People's Republic Square".
+        »
+      </p>
+      <p>
+        Not wishing to ref imaginary countries not even recognized by Belarus, the US
+        Embassy changed its address on its website to its geolocation coordinates. 
+      </p>
+    `
+  },
+  {
     t: 'Holiest of Water',
     type: 'yt',
     key: '03SiEa_xxbE',
