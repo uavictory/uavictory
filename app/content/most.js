@@ -9,6 +9,23 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: `Most likely to cut off their own finger`,
+    type: 'img',
+    key: 'most/chainsaw-clown_ZC8FaCkLb.png',
+    txt: `   
+      <p>
+        Kadyrovskis continue to rack up accolades. They're already
+        reigning Heavyweight Clown Champions of the War, but not resting
+        on any laurels this Kady shows off his skills with landscaping tools.
+      </p>
+      <p>
+        While no doubts on his artistry, we're just a little worried that,
+        in his exuberance, he may accidentally sever a digit. Or appendage. 
+        <a href='https://twitter.com/nexta_tv/status/1543988041982803969' target='_blank' rel='noopener noreferrer'>Full video here</a>
+      </p>
+    `
+  },
+  {
     t: "Diplomacy at it's Finest",
     type: 'img',
     key: 'most/diplomacy_MUgZuwUfY.png',
