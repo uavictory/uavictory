@@ -9,9 +9,33 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: `Best Jesters of the War`,
+    type: 'img',
+    key: 'most/russian_state_olga_Mic0nL2w_.png',
+    url: 'https://twitter.com/JuliaDavisNews/status/1544322674905812993',
+    txt: `
+      <p>
+        So we were quandrying whether the crew at Russian State TV had
+        dethroned the Kadyrovis as Clown Champions of the War.
+      </p>
+      <p>
+        On further reflection, we conclude two very distinct talents are at work here: 
+        the rugged, slapdash Kady style, and the geo-politishno-metaphysifantashistik 
+        artistry of O Skabeeva & Co.
+      </p>
+      <p>
+        Each should be given their due! So we ordain the Kadyrs retain their Clown title, 
+        and bestow upon Olga and friends the podium spot in the newly-created Best Jesters of
+        the War category.
+        <a href='https://twitter.com/JuliaDavisNews/status/1544322674905812993' target='_blank' rel='noopener noreferrer'>Full video</a>
+      </p>
+    `
+  },
+  {
     t: `Most likely to cut off their own finger`,
     type: 'img',
     key: 'most/chainsaw-clown_ZC8FaCkLb.png',
+    url: 'https://twitter.com/nexta_tv/status/1543988041982803969',
     txt: `   
       <p>
         Kadyrovskis continue to rack up accolades. They're already
