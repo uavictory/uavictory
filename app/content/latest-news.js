@@ -2,8 +2,8 @@
  */
 const latestNews = [
   {
-    t: 'June 27 Russian loss estimates: +150 troops, +20 tanks, +28 APV, 7 artillery: must have been a special on APV!',
-    url: 'https://twitter.com/KyivIndependent/status/1541318913392361472',
+    t: `Latest ISW Report: Russian announce no new gains for first time in war signaling operational pause',
+    url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
   },
   {
     t: "Ukrainians raise money for 4 new Bayraktar (we'll have a new animation soon)",
@@ -16,10 +16,6 @@ const latestNews = [
   {
     t: `More Western weapons to Ukraine -- Austin warns of 'pivotal moment'`,
     url: 'https://thehill.com/policy/defense/3525102-austin-warns-of-pivotal-moment-in-ukraine-war-urges-allies-to-help/',
-  },
-  {
-    t: `Latest ISW Report: Russians still can't take Severodonetsk, ZSU pressing in South`,
-    url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
   },
 ];
 
