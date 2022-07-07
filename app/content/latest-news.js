@@ -2,7 +2,7 @@
  */
 const latestNews = [
   {
-    t: `Latest ISW Report: Russian announce no new gains for first time in war signaling operational pause',
+    t: `Latest ISW Report: Russian announce no new gains for first time in war signaling operational pause`,
     url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
   },
   {
