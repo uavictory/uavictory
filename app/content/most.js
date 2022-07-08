@@ -23,6 +23,25 @@ const items = [
   //   `
   // },
   {
+    t: `Most Awesome Comedy Variety Mashup`,
+    type: 'img',
+    key: 'most/arti_aronovych_7ArReS-Je.png',
+    url: 'https://twitter.com/JuliaDavisNews/status/1544347166033858560',
+    txt: `
+      <p>
+        Arti Aronovych telling Olga Skabeeva how he and his Chechen tiktokers
+        have already tied down Nato and the US. To which she asks, "Where next,
+        Arti?" Both Arti's Chechens and Olga have received our kudos for their
+        artisty, and putting them together is a truly rarified experience.
+      </p>
+      <p>
+        As awesome as this was, who we'd really like to see joining Olgar 
+        are Kadyrov himself..and Lukashenko. That's would truly be the Holy 
+        Trinity of Kremlin comedy!
+      </p>
+    `
+  },
+  {
     t: `Biggest Threat to World Food Security`,
     type: 'img',
     key: 'most/wheat-burning_ct6oRdp3q.png',
