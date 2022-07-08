@@ -23,6 +23,23 @@ const items = [
   //   `
   // },
   {
+    t: `Biggest Threat to World Food Security`,
+    type: 'img',
+    key: 'most/wheat-burning_ct6oRdp3q.png',
+    url: 'https://twitter.com/DefenceU/status/1545119396452093953',
+    txt: `
+      <p>
+        Ukraine is a major supplier of food to many developing countries. Disruption of
+        its fields is a threat to food security and is causing prices to rise for many
+        who can ill afford it.
+      </p>
+      <p>
+        Russia seems perfectly content to stoke this crisis in the vain hope it will work
+        to its advantage. It will not.
+      </p>
+    `
+  },
+  {
     t: `The Best of Belarus`,
     type: 'img',
     key: 'most/Brest_Marchuk_Y_WE33xzE.png',
