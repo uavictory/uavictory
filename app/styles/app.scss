@@ -215,8 +215,14 @@ a.help-btn {
 }
 
 h3.special-item {
-    margin: 25px;
+    margin: 25px 0 0 0;
     font-size: 26px;
+}
+
+h4.special-item {
+    margin: 10px 0 25px 0;
+    font-size: 18px;
+    text-align: center;
 }
 
 .sub-menu {
@@ -541,4 +547,8 @@ h2.intel {
     background-color: black;
     font-weight: bold;
     padding: 2px 6px;
+}
+
+.link2022 {
+    width: $ytview-width;
 }
