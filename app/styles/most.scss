@@ -1,6 +1,10 @@
 @import 'vars';
 
 
+.link2022-most {
+  @include col-flex-center;
+}
+
 .most-items {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     width: 92%;
