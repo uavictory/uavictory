@@ -1,1 +1,7 @@
-<a href={{@url}} target="_blank" rel="noopener noreferrer">{{@txt}}</a>
+<a href={{@url}} target="_blank" rel="noopener noreferrer">
+  {{#if @imgUrl}}
+    <Image @src={{@imgUrl}} @classes={{@imgClass}} />
+  {{else}}
+    {{@txt}}
+  {{/if}}
+</a>
