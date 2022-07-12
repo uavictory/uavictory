@@ -22,6 +22,25 @@ const items = [
   //     </p>
   //   `
   // },
+  
+  {
+    t: `Best Way to Lose`,
+    type: 'img',
+    key: 'most/checkers_9O7w6W0ii.png',
+    url: 'https://twitter.com/serhiyprytula/status/1546754864792981505',
+    txt: `
+      <p>
+        We don't like to lose any more than anyone else, but we'd gladly
+        lose to Valeriya, who plays for contributions to the Ukrainian
+        Armed Forces. 
+      </p>
+      <p>
+        Valeriya is a world champion in checkers in the girls under-10 division. 
+        She invites everyone to play with her and players can donate any amount. 
+        On one occasion, she played up to 30 matches and won them all!
+      </p>
+    `
+  },
   {
     t: `Best Birthday Ever`,
     type: 'img',
