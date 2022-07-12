@@ -22,7 +22,22 @@ const items = [
   //     </p>
   //   `
   // },
-  
+  {
+    t: `The Man`,
+    type: 'img',
+    key: 'most/zelensky_to_his_people_ynC0Hv-ok.png',
+    url: 'https://twitter.com/Flash43191300/status/1546943415451099142',
+    txt: `
+      <p>
+        What can we say? He never misses an opportunity to rally his people
+        -- and the world -- in this historic, heroic struggle for independence
+        and a better world.
+      </p>
+      <p>
+        All with the humility and grace of the green t-shirts he wears.
+      </p>
+    `
+  }, 
   {
     t: `Best Way to Lose`,
     type: 'img',
