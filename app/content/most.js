@@ -34,8 +34,8 @@ const items = [
         from the muzzle of a Leopard tank.
       </p>
       <p>
-        As German chancellor, she'd be a great complement to European leaders
-        like Sanna Marin, Magdalena Andersson, and hopefully Liz Truss in the UK.
+        As German chancellor, she'd be a great complement to strong female European leaders
+        like Sanna Marin, Magdalena Andersson, Ingrida Šimonytė and hopefully Liz Truss in the UK.
       </p>
     `
   },
