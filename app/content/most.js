@@ -23,6 +23,23 @@ const items = [
   //   `
   // },
   {
+    t: `The German who Gets it the Most`,
+    type: 'img',
+    key: 'most/baerbock_47AUPYCtT.png',
+    url: 'https://twitter.com/nexta_tv/status/1547120232937971713',
+    txt: `
+      <p>
+        Unlike Scholz or Macron, German foreign minister Annalena Baerbock
+        understands the only way you negotiate with someone like Putin is 
+        from the muzzle of a Leopard tank.
+      </p>
+      <p>
+        As German chancellor, she'd be a great complement to European leaders
+        like Sanna Marin, Magdalena Andersson, and hopefully Liz Truss in the UK.
+      </p>
+    `
+  },
+  {
     t: `The Man`,
     type: 'img',
     key: 'most/zelensky_to_his_people_ynC0Hv-ok.png',
