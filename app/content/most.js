@@ -23,6 +23,43 @@ const items = [
   //   `
   // },
   {
+    t: `Defense of Kyiv`,
+    type: 'img',
+    key: 'most/defense_of_kyiv_vbiMqs9gB.png',
+    url: 'https://euromaidanpress.com/2022/07/15/putin-ordered-to-take-kyiv-in-three-days-so-thousands-of-ordinary-kyivans-took-up-arms/',
+    txt: `
+      <p>
+        How ordinary citizens of the 
+        Territorial Defense rose up to stop the Russians. 
+      </p>
+      <p>
+      We could do whatever we wanted without orders...We understood 
+      how many Russians were coming...Every day we waited for the 
+      Russians to attack – everything was on a knife’s edge      </p>
+      <p>
+        ...<b>everyone said goodbye to life, so overall it was quite easy.</b> 
+        Only then, when it’s over, do you realize that it was 
+        complete madness, everyone has children, and so on. 
+        <a href='https://euromaidanpress.com/2022/07/15/putin-ordered-to-take-kyiv-in-three-days-so-thousands-of-ordinary-kyivans-took-up-arms/' 
+          target='_blank' rel='noopener noreferrer'>Full article
+        </a>
+      </p>
+    `
+  }, 
+  {
+    t: `Biggest Reason Ukraine needs more HIMARs`,
+    type: 'img',
+    key: 'most/vinnytsia_dCPSBXQGo.png',
+    url: 'https://twitter.com/GlasnostGone/status/1547636293907009539',
+    txt: `
+      <p>
+        Mariupol theater, Kramatorsk train station, Kremenchuk shopping center
+        other, plus countless others...When do we gave Ukraine enough weapons to
+        stop the constant and senseless targeting of civilians and children by Russian 
+      </p>
+    `
+  },
+  {
     t: `The German who Gets it the Most`,
     type: 'img',
     key: 'most/baerbock_47AUPYCtT.png',
