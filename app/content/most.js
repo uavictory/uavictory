@@ -23,6 +23,24 @@ const items = [
   //   `
   // },
   {
+    t: `Still #1 Reason for HIMARs`,
+    type: 'img',
+    key: 'most/missile_strike_3dIXr2eoP.png',
+    url: 'https://twitter.com/olgatokariuk/status/1548043070393835526',
+    txt: `
+      <p>
+        Russia continues to launch missile strikes on Ukrainian civilian targets:
+        hospitals, schools, universities, residential building. How many more Vinnytsias,
+        Kremenchuks, Kramatorsks, Mariupols do we need?
+      </p>
+      <p>
+        Great to see more HIMARS and M270s and Panzerhaubitzes and Archers making
+        their way to Ukraine, but it is not enough until Russia loses to ability
+        to slaughter innocent civilians.
+      </p>
+    `
+  },
+  {
     t: `Defense of Kyiv`,
     type: 'img',
     key: 'most/defense_of_kyiv_vbiMqs9gB.png',
