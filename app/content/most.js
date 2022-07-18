@@ -23,6 +23,21 @@ const items = [
   //   `
   // },
   {
+    t: `Worst Bargain Ever`,
+    type: 'img',
+    key: 'most/casket_car_PV8F3cSJA.png',
+    url: ';',
+    txt: `
+      <p>
+        The deal being promoted on Russian TV: if your son gets killed in Ukraine, 
+        you can use the "casket" money to buy a car.
+      </p>
+      <p>
+        Sounds like a deal with the devil to us.
+      </p>
+    `
+  },
+  {
     t: `Still #1 Reason for HIMARs`,
     type: 'img',
     key: 'most/missile_strike_3dIXr2eoP.png',
