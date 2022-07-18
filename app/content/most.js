@@ -23,10 +23,29 @@ const items = [
   //   `
   // },
   {
+    t: `Latest from the Clown Squad`,
+    type: 'img',
+    key: 'most/apti_olga_0DEFHBNml.png',
+    url: 'https://twitter.com/JuliaDavisNews/status/1548692871678664710',
+    txt: `
+      <p>
+        The clown crew is all here. Well, mostly -- we're still hoping
+        Kadyrov and Lukashenko make it on someday. Would be like the Live
+        Aid of Russian War Clowns. But still some good content here.
+      </p>
+      <p>
+        The latest routine: Putin and Islam gonna conquer NATO, LBGTQ, and
+        the Anti-Christ. Gotta admire the creativity, though maybe they should
+        spare a few thoughts on what they can salvage from this disastrous
+        invasion before they lose all the forces they still have in Ukraine.
+      </p>
+    `
+  },
+  {
     t: `Worst Bargain Ever`,
     type: 'img',
     key: 'most/casket_car_PV8F3cSJA.png',
-    url: ';',
+    url: 'https://twitter.com/Gerashchenko_en/status/1549004735172284416',
     txt: `
       <p>
         The deal being promoted on Russian TV: if your son gets killed in Ukraine, 
