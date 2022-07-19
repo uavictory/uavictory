@@ -8,20 +8,22 @@
 */
 //https://youtu.be/gy3LOs2UPT4
 const items = [
-  // {
-  //   t: `Best Ensemble since like Live Aid`,
-  //   type: 'yt-img',
-  //   key: 'key',
-  //   url: 'https://twitter.com/JuliaDavisNews/status/1544347166033858560',
-  //   txt: `
-  //     <p>
-  
-  //     </p>
-  //     <p>
-  
-  //     </p>
-  //   `
-  // },
+  {
+    t: `Biggest Oops`,
+    type: 'img',
+    key: 'most/Best_Russian_Targeting_Yet__QsG4vNWw.png',
+    url: 'https://twitter.com/UAWeapons/status/1548937987567804417',
+    txt: `
+      <p>
+        Russians show that in addition to schools, hospitals and residential 
+        buildings, they are capable of targeting some of the most 
+        advanced aircraft of the war, in this case an Su-34.
+      </p>
+      <p>
+        Unfortunately (for them), it was a Russian Su-34.
+      </p>
+    `
+  },
   {
     t: `Latest from the Clown Squad`,
     type: 'img',
