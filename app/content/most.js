@@ -9,6 +9,23 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: `Worst Job in the World`,
+    type: 'yt',
+    key: 'GdGA88Eo8vs',
+    // url: ';',
+    txt: `
+      <p>
+        ...has got to be working at a Russian ammunition dump in Ukraine.
+        You just never know when its gonna be HIMAR time and your shift
+        ends unexpectedly.
+      </p>
+      <p>
+        The guys in this video miraculously make it through, but unlikely
+        many this lucky.
+      </p>
+    `
+  },
+  {
     t: `Biggest Oops`,
     type: 'img',
     key: 'most/Best_Russian_Targeting_Yet__QsG4vNWw.png',
