@@ -9,6 +9,29 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: `Russia's Finest`,
+    type: 'img',
+    key: 'most/kasparov_9Nh_4fLtt.png',
+    url: 'https://twitter.com/Kasparov63/status/1549916837831446528',
+    txt: `
+      <p>
+        No one warned the world about Putin as much as 
+        former chess champion Garry Kasparov, and he continues to
+        urge the world to give Ukraine the weapons it needs to 
+        defeat the Russian dictator's armies.
+      </p>
+      <p>  
+        He's helping in other ways too, such as inviting aspiring Ukrainian
+        chess players to play against the best in the world, including
+        himself and world champ Magnus Carlsen.
+      </p>
+      <p>
+        Imagine Kasparov as president of Russia. It
+        would be a much better Russia and a much better world.
+      </p>
+    `
+  },
+  {
     t: `Worst Job in the World`,
     type: 'yt',
     key: 'GdGA88Eo8vs',
