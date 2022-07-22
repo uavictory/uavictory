@@ -2,20 +2,21 @@
  */
 const latestNews = [
   {
+    t: `How long can Russia last? Not long, according to UK intelligence`,
+    url: 'https://www.cnn.com/2022/07/21/politics/mi6-chief-russia-spying/index.html',
+  },
+  {
+    t: `Agreement signed to allow export of Ukrainian grain`,
+    url: 'https://apnews.com/article/russia-ukraine-middle-east-global-trade-a2c89d94a0f8473b40a1fcde5710bda8',
+  },
+  {
+    t: `Reports of 2000 Russian troops surrounded in Kherson`,
+    url: 'https://twitter.com/lilygrutcher/status/1550437897022701568',
+  },
+  
+  {
     t: `Latest ISW Report: Russian announce no new gains for first time in war signaling operational pause`,
     url: 'https://www.understandingwar.org/backgrounder/ukraine-conflict-updates',
-  },
-  {
-    t: "Ukrainians raise money for 4 new Bayraktar (we'll have a new animation soon)",
-    url: 'https://mil.in.ua/en/news/in-three-days-ukrainians-raised-600-million-uah-to-purchase-bayraktar-tb2/',
-  },
-  {
-    t: 'EU Candidate Status for Ukraine, Moldova!',
-    url: 'https://www.cnn.com/2022/06/23/europe/eu-approves-ukraine-candidateship-intl/index.html',
-  },
-  {
-    t: `More Western weapons to Ukraine -- Austin warns of 'pivotal moment'`,
-    url: 'https://thehill.com/policy/defense/3525102-austin-warns-of-pivotal-moment-in-ukraine-war-urges-allies-to-help/',
   },
 ];
 
