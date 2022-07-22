@@ -10,8 +10,8 @@ const latestNews = [
     url: 'https://apnews.com/article/russia-ukraine-middle-east-global-trade-a2c89d94a0f8473b40a1fcde5710bda8',
   },
   {
-    t: `Reports of 2000 Russian troops surrounded in Kherson`,
-    url: 'https://twitter.com/lilygrutcher/status/1550437897022701568',
+    t: `Russia has committed 85% of military to Ukraine, losing capabilities: US DoD Official`,
+    url: 'https://twitter.com/nickschifrin/status/1550475245227687937',
   },
   
   {
