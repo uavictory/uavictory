@@ -9,6 +9,25 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: `Biggest Thumb in the Eye`,
+    type: 'img',
+    key: 'most/odesa_missile_grain_0VnF-EuDD.png',
+    url: 'https://twitter.com/Gerashchenko_en/status/1550771080914210816',
+    txt: `
+      <p>
+        Wow, sign an agreement under international auspices and break it the
+        next day. Even by Putin's standards that's brazen. Presumably he may
+        want some goodwill from Guterres and Erdogan. This just says I have 
+        zero respect for you and I'm not even gonna try to hide it anymore.
+      </p>
+      <p>
+        Will Guterres and Erdogan get the message? I'm sure they did, but
+        will they suck it up and swallow once again, or will they finally
+        realize stronger measures are needed?
+      </p>
+    `
+  },
+  {
     t: `Russia's Finest`,
     type: 'img',
     key: 'most/kasparov_9Nh_4fLtt.png',
