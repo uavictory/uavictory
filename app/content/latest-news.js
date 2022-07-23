@@ -2,6 +2,14 @@
  */
 const latestNews = [
   {
+    t: `Less than 24 hours after signing grain agreement, Russia strikes Odesa port`,
+    url: 'https://www.cnbc.com/2022/07/23/ukraine-says-russian-missiles-slam-odesa-port-putting-a-landmark-grain-deal-at-risk.html'
+  },
+  {
+    t: `Imagine Dragons become ambassadors for United24 with focus on medical aid for Ukraine`,
+    url: 'https://twitter.com/Imaginedragons/status/1550590473336602624'
+  },
+  {
     t: `How long can Russia last? Not long, according to UK intelligence`,
     url: 'https://www.cnn.com/2022/07/21/politics/mi6-chief-russia-spying/index.html',
   },
