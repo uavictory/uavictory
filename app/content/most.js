@@ -9,6 +9,39 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: `Worst Movie Night Ever`,
+    type: 'img',
+    key: 'most/worst_movie_4e4sVFGuR.png',
+    url: 'https://twitter.com/visegrad24/status/1551202132870795264',
+    txt: `
+      <p>
+        Seems some Russian soldiers decided to take the edge off by
+        watching a movie -- on top of a tank. We're not sure how the movie
+        was, but the viewing ended with a bang, courtesy a 
+        grenade-dropping drone.
+      </p>
+      <p>
+        Note: if you're in a war zone, probably best not to 
+        hang out on the top of a tank watching movies. Maybe best to
+        avoid tanks altogether, whenever possible.
+      </p>
+    `
+  },
+  {
+    t: `Greatest Escape`,
+    type: 'img',
+    key: 'most/greatest_escape_ZD81aFUtO.png',
+    url: 'https://twitter.com/igorsushko/status/1551245060032774146',
+    txt: `
+      <p>
+        Young, fit, military conscription-age male escapes as he was being transported to a psychiatric hospital.
+      </p>
+      <p>
+        Surely couldn't be because he doesn't fit to fight in some crazy person's war.
+      </p>
+    `
+  },
+  {
     t: `Biggest Thumb in the Eye`,
     type: 'img',
     key: 'most/odesa_missile_grain_0VnF-EuDD.png',
