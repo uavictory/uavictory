@@ -9,6 +9,23 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: `Chechnya's Finest`,
+    type: 'img',
+    key: 'most/good_chechens_jbZrZwjxD.png',
+    url: 'https://twitter.com/UAWeapons/status/1551587932997304320',
+    txt: `
+      <p>
+        When you hear about Chechens in Ukraine, usually it means Kadyrov's
+        crazies. But let's not forget the many brave Chechens fighting
+        with Ukraine against Putin and Kadyrov.
+      </p>
+      <p>
+        We look forward to the day when these Chechens' heroic efforts lead
+        to the freedom not just of Ukraine, but of Chechenya as well.
+      </p>
+    `
+  },
+  {
     t: `Worst Movie Night Ever`,
     type: 'img',
     key: 'most/worst_movie_4e4sVFGuR.png',
