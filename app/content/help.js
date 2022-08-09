@@ -31,12 +31,12 @@ const items = [
           {
             n: `Ukrainian Military`,
             u: `https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi`,
-            t: `donate directly to the Ukrainian Military `,
+            t: `donate directly to the Ukrainian Military`,
           },
           {
+            n: `Ripley's Heroes`,
             u: `https://riprawlings.com/ripleys-heroes/`,
-            t: `
-                group recruiting and supporting volunteer medical personnel, journalists, and experienced soldiers.
+            t: `Group recruiting and supporting volunteer medical personnel, journalists, and experienced soldiers.
                 More at their <a href='https://twitter.com/RipRawlings'>Twitter account</a>
             `,
           },
@@ -44,6 +44,13 @@ const items = [
             n: `Come Back Alive`,
             u: `https://www.comebackalive.in.ua/`,
             t: `since 2014, one of the largest charities supporting the Armed Forces of Ukraine`,
+          },
+          {
+            n: `Georgian Legion`,
+            u: `https://georgianlegion.com.ua/en/`,
+            t: `volunteers from Georgia fighting together with the ZSU.
+                Also see their <a href='https://twitter.com/georgian_legion'>Twitter account</a>.
+            `,
           },
           {
             n: `Czech Embassy in Ukraine`,
@@ -61,6 +68,17 @@ const items = [
     subs: [
       {
         links: [
+          {
+            n: `Join #NAFO on Twitter`,
+            u: `https://www.reddit.com/r/NAFO/`,
+            t: `
+              #NAFO's mission is to combat Russian propaganda online, mainly on
+              <a href='https://twitter.com/Kama_Kamilia'>Twitter</a>. Anyone can help, 
+              but for formal recognition as a Fella, make a contribution to a group supporting
+              Ukraine, particularly the Georgia Legion, then tweet a #FellaRequest along with
+              image of your contribution.
+              `,
+          },
           {
             n: `Sponsor a Ukrainian family to live in the US`,
             u: `https://ukraine.welcome.us/faq`,
