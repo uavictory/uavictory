@@ -9,6 +9,22 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: `Most Exciting Crimean Vacation Ever`,
+    type: 'img',
+    key: 'most/crimea_explosions_5kTqlfal_.png',
+    url: 'https://twitter.com/KyivIndependent/status/1557005908164726785',
+    txt: `
+      <p>
+        The most exciting Crimean Vacation since the Charge of the Light Brigade.
+      </p>
+      <p>
+        Russian tourists who don't like excitement, might consider going back
+        to Russia.  Russians who moved after 2014 -- and Russian military -- 
+        should follow them.
+      </p>
+    `
+  },
+  {
     t: `Chechnya's Finest`,
     type: 'img',
     key: 'most/good_chechens_jbZrZwjxD.png',
