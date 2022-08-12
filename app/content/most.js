@@ -9,6 +9,24 @@
 //https://youtu.be/gy3LOs2UPT4
 const items = [
   {
+    t: `Best Wakeup Call Ever`,
+    type: 'img',
+    key: 'most/wake_up_tI_9DdNNJ.png',
+    url: 'https://twitter.com/MarkRid89403375/status/1558057106175033344',
+    txt: `
+      <p>
+        So maybe getting woken up by enemy soldiers isn't always the most salutary
+        experience. We'd never want to be woken up by Orcs under any circumstances.
+      </p>
+      <p>
+        On the other hand if you're cannon fodder, and your opponent 
+        is an army that respects human rights, the calculations change. 
+        We suspect this guy's life expectancy went way up the moment he was 
+        captured.
+      </p>
+    `
+  },
+  {
     t: `Most Exciting Crimean Vacation Ever`,
     type: 'img',
     key: 'most/crimea_explosions_5kTqlfal_.png',
