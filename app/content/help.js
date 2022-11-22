@@ -33,11 +33,12 @@ const items = [
             u: `https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi`,
             t: `donate directly to the Ukrainian Military`,
           },
+
           {
-            n: `Ripley's Heroes`,
-            u: `https://riprawlings.com/ripleys-heroes/`,
-            t: `Group recruiting and supporting volunteer medical personnel, journalists, and experienced soldiers.
-                More at their <a href='https://twitter.com/RipRawlings'>Twitter account</a>
+            n: `Ukraine Aid Ops`,
+            u: `https://ukraineaidops.org/`,
+            t: `international group of civilian volunteers securing protective gear and life-saving equipment, delivered directly to front line defenders in Ukraine.
+                Also see their <a href='https://twitter.com/UkraineAidOps'>Twitter account</a>.
             `,
           },
           {
