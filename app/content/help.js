@@ -41,6 +41,15 @@ const items = [
                 Also see their <a href='https://twitter.com/UkraineAidOps'>Twitter account</a>.
             `,
           },
+
+          {
+            n: `Dzyga’s Paw`,
+            u: `https://dzygaspaw.com/`,
+            t: `Charity founded by a <a href='https://twitter.com/dim0kq'>young Ukrainian software developer</a> that has delivered Starlinks
+                and other much needed equipment to individual Ukrainian military units 
+                (<a href='https://twitter.com/dzygaspaw'>Twitter</a>).
+            `,
+          },
           {
             n: `Come Back Alive`,
             u: `https://www.comebackalive.in.ua/`,
